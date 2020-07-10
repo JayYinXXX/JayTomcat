@@ -1,0 +1,60 @@
+06 06, 2020 17:25:36 下午 com.jayyin.jaytomcat.Bootstrap logJVM
+INFO : Server version:		JayTomcat/1.0.1
+06 06, 2020 17:25:36 下午 com.jayyin.jaytomcat.Bootstrap logJVM
+INFO : Server built:		2020-06-04 22:20:22
+06 06, 2020 17:25:36 下午 com.jayyin.jaytomcat.Bootstrap logJVM
+INFO : Server number:		1.0.1
+06 06, 2020 17:25:36 下午 com.jayyin.jaytomcat.Bootstrap logJVM
+INFO : OS Name	:		Windows 10
+06 06, 2020 17:25:36 下午 com.jayyin.jaytomcat.Bootstrap logJVM
+INFO : OS Version:		10.0
+06 06, 2020 17:25:36 下午 com.jayyin.jaytomcat.Bootstrap logJVM
+INFO : Architecture:		amd64
+06 06, 2020 17:25:36 下午 com.jayyin.jaytomcat.Bootstrap logJVM
+INFO : Java Home:		E:\Program Files\jdk8-191\jre
+06 06, 2020 17:25:36 下午 com.jayyin.jaytomcat.Bootstrap logJVM
+INFO : JVM Version:		1.8.0_191-b12
+06 06, 2020 17:25:36 下午 com.jayyin.jaytomcat.Bootstrap logJVM
+INFO : JVM Vendor:		Oracle Corporation
+06 06, 2020 17:25:36 下午 com.jayyin.jaytomcat.catalina.Context <init>
+INFO : Deploying web application directory F:\Project\jaytomcat\webapps\app1
+06 06, 2020 17:25:36 下午 com.jayyin.jaytomcat.catalina.Context <init>
+INFO : Deployment of web application directory F:\Project\jaytomcat\webapps\app1 has finished in 16 ms
+06 06, 2020 17:25:36 下午 com.jayyin.jaytomcat.catalina.Context <init>
+INFO : Deploying web application directory F:\Project\jaytomcat\webapps\ROOT
+06 06, 2020 17:25:36 下午 com.jayyin.jaytomcat.catalina.Context <init>
+INFO : Deployment of web application directory F:\Project\jaytomcat\webapps\ROOT has finished in 0 ms
+06 06, 2020 17:25:36 下午 com.jayyin.jaytomcat.catalina.Context <init>
+INFO : Deploying web application directory F:/Project/jaytomcat/b
+06 06, 2020 17:25:36 下午 com.jayyin.jaytomcat.catalina.Context <init>
+INFO : Deployment of web application directory F:/Project/jaytomcat/b has finished in 0 ms
+06 06, 2020 18:28:02 下午 com.jayyin.jaytomcat.Bootstrap logJVM
+INFO : Server version:		JayTomcat/1.0.1
+06 06, 2020 18:28:02 下午 com.jayyin.jaytomcat.Bootstrap logJVM
+INFO : Server built:		2020-06-04 22:20:22
+06 06, 2020 18:28:02 下午 com.jayyin.jaytomcat.Bootstrap logJVM
+INFO : Server number:		1.0.1
+06 06, 2020 18:28:02 下午 com.jayyin.jaytomcat.Bootstrap logJVM
+INFO : OS Name	:		Windows 10
+06 06, 2020 18:28:02 下午 com.jayyin.jaytomcat.Bootstrap logJVM
+INFO : OS Version:		10.0
+06 06, 2020 18:28:02 下午 com.jayyin.jaytomcat.Bootstrap logJVM
+INFO : Architecture:		amd64
+06 06, 2020 18:28:02 下午 com.jayyin.jaytomcat.Bootstrap logJVM
+INFO : Java Home:		E:\Program Files\jdk8-191\jre
+06 06, 2020 18:28:02 下午 com.jayyin.jaytomcat.Bootstrap logJVM
+INFO : JVM Version:		1.8.0_191-b12
+06 06, 2020 18:28:02 下午 com.jayyin.jaytomcat.Bootstrap logJVM
+INFO : JVM Vendor:		Oracle Corporation
+06 06, 2020 18:28:03 下午 com.jayyin.jaytomcat.catalina.Context <init>
+INFO : Deploying web application directory F:/Project/jaytomcat/b
+06 06, 2020 18:28:03 下午 com.jayyin.jaytomcat.catalina.Context <init>
+INFO : Deployment of web application directory F:/Project/jaytomcat/b has finished in 0 ms
+06 06, 2020 18:28:03 下午 com.jayyin.jaytomcat.catalina.Context <init>
+INFO : Deploying web application directory F:\Project\jaytomcat\webapps\app1
+06 06, 2020 18:28:03 下午 com.jayyin.jaytomcat.catalina.Context <init>
+INFO : Deployment of web application directory F:\Project\jaytomcat\webapps\app1 has finished in 0 ms
+06 06, 2020 18:28:03 下午 com.jayyin.jaytomcat.catalina.Context <init>
+INFO : Deploying web application directory F:\Project\jaytomcat\webapps\ROOT
+06 06, 2020 18:28:03 下午 com.jayyin.jaytomcat.catalina.Context <init>
+INFO : Deployment of web application directory F:\Project\jaytomcat\webapps\ROOT has finished in 16 ms

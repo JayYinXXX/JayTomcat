@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <servlet>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>com.jayyin.jaytomcat.webappservlet.HelloServlet</servlet-class>
+        <init-param>
+            <param-name>author</param-name>
+            <param-value>JayYin</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ParamServlet</servlet-name>
+        <servlet-class>com.jayyin.jaytomcat.webappservlet.ParamServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ParamServlet</servlet-name>
+        <url-pattern>/param</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HeaderServlet</servlet-name>
+        <servlet-class>com.jayyin.jaytomcat.webappservlet.HeaderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HeaderServlet</servlet-name>
+        <url-pattern>/header</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SetCookieServlet</servlet-name>
+        <servlet-class>com.jayyin.jaytomcat.webappservlet.SetCookieServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SetCookieServlet</servlet-name>
+        <url-pattern>/setCookie</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetCookieServlet</servlet-name>
+        <servlet-class>com.jayyin.jaytomcat.webappservlet.GetCookieServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetCookieServlet</servlet-name>
+        <url-pattern>/getCookie</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SetSessionServlet</servlet-name>
+        <servlet-class>com.jayyin.jaytomcat.webappservlet.SetSessionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SetSessionServlet</servlet-name>
+        <url-pattern>/setSession</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetSessionServlet</servlet-name>
+        <servlet-class>com.jayyin.jaytomcat.webappservlet.GetSessionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetSessionServlet</servlet-name>
+        <url-pattern>/getSession</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ClientJumpServlet</servlet-name>
+        <servlet-class>com.jayyin.jaytomcat.webappservlet.ClientJumpServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ClientJumpServlet</servlet-name>
+        <url-pattern>/client_jump</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServerJumpServlet</servlet-name>
+        <servlet-class>com.jayyin.jaytomcat.webappservlet.ServerJumpServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServerJumpServlet</servlet-name>
+        <url-pattern>/server_jump</url-pattern>
+    </servlet-mapping>
+</web-app>

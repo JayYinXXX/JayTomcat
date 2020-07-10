@@ -1,0 +1,1502 @@
+二月 25, 2020 12:09:32 上午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+二月 25, 2020 12:09:32 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:09:32 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:09:32 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+二月 25, 2020 12:09:32 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:09:32 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:09:32 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:09:32 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:09:33 上午 org.apache.catalina.core.StandardContext setPath
+警告: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+二月 25, 2020 12:09:33 上午 org.apache.tomcat.util.digester.SetPropertiesRule begin
+警告: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+二月 25, 2020 12:09:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+二月 25, 2020 12:09:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+二月 25, 2020 12:09:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+二月 25, 2020 12:09:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+二月 25, 2020 12:09:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.0
+二月 25, 2020 12:09:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+二月 25, 2020 12:09:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             E:\Program Files\jdk8-191\jre
+二月 25, 2020 12:09:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_191-b12
+二月 25, 2020 12:09:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+二月 25, 2020 12:09:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:09:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:09:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=F:\HOW2J\tmall\tomcat\conf\logging.properties
+二月 25, 2020 12:09:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+二月 25, 2020 12:09:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=F:\HOW2J\tmall\tomcat\endorsed
+二月 25, 2020 12:09:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:09:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:09:33 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=F:\HOW2J\tmall\tomcat\temp
+二月 25, 2020 12:09:33 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: E:\Program Files\jdk8-191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;E:\Program Files\CodeBlocks\MinGW\bin;E:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;E:\Program Files\matlab2018a\bin;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\jdk8-191\bin;E:\Program Files\jdk8-191\jre\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\Program Files\python3.6.1\Scripts\;E:\Program Files\python3.6.1\;C:\Users\Jay\AppData\Local\Microsoft\WindowsApps;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\Git\cmd;C:\Users\Jay\AppData\Roaming\Python\Python36\Scripts;E:\ProgramYin\mingw64\bin;;E:\ProgramYin\IntelliJ IDEA 2019.3.3\bin;;.
+二月 25, 2020 12:09:33 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:09:33 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:09:33 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 624 ms
+二月 25, 2020 12:09:33 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+二月 25, 2020 12:09:33 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+二月 25, 2020 12:09:33 上午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(F:\HOW2J\tmall\web\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 25, 2020 12:09:34 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 12:09:34 上午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [236] milliseconds.
+二月 25, 2020 12:09:34 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:09:34 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:09:34 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 820 ms
+二月 25, 2020 12:10:14 上午 org.apache.catalina.core.StandardContext setPath
+警告: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+二月 25, 2020 12:10:14 上午 org.apache.tomcat.util.digester.SetPropertiesRule begin
+警告: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+二月 25, 2020 12:10:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+二月 25, 2020 12:10:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+二月 25, 2020 12:10:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+二月 25, 2020 12:10:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+二月 25, 2020 12:10:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.0
+二月 25, 2020 12:10:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+二月 25, 2020 12:10:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             E:\Program Files\jdk8-191\jre
+二月 25, 2020 12:10:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_191-b12
+二月 25, 2020 12:10:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+二月 25, 2020 12:10:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:10:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:10:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=F:\HOW2J\tmall\tomcat\conf\logging.properties
+二月 25, 2020 12:10:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+二月 25, 2020 12:10:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=F:\HOW2J\tmall\tomcat\endorsed
+二月 25, 2020 12:10:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:10:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:10:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=F:\HOW2J\tmall\tomcat\temp
+二月 25, 2020 12:10:14 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: E:\Program Files\jdk8-191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;E:\Program Files\CodeBlocks\MinGW\bin;E:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;E:\Program Files\matlab2018a\bin;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\jdk8-191\bin;E:\Program Files\jdk8-191\jre\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\Program Files\python3.6.1\Scripts\;E:\Program Files\python3.6.1\;C:\Users\Jay\AppData\Local\Microsoft\WindowsApps;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\Git\cmd;C:\Users\Jay\AppData\Roaming\Python\Python36\Scripts;E:\ProgramYin\mingw64\bin;;E:\ProgramYin\IntelliJ IDEA 2019.3.3\bin;;.
+二月 25, 2020 12:10:14 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:10:14 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:10:15 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 710 ms
+二月 25, 2020 12:10:15 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+二月 25, 2020 12:10:15 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+二月 25, 2020 12:10:15 上午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(F:\HOW2J\tmall\web\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 25, 2020 12:10:15 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 12:10:15 上午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [231] milliseconds.
+二月 25, 2020 12:10:16 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:10:16 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:10:16 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 1027 ms
+二月 25, 2020 12:14:29 上午 org.apache.catalina.core.StandardContext setPath
+警告: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+二月 25, 2020 12:14:29 上午 org.apache.tomcat.util.digester.SetPropertiesRule begin
+警告: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+二月 25, 2020 12:14:29 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+二月 25, 2020 12:14:29 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+二月 25, 2020 12:14:29 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+二月 25, 2020 12:14:29 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+二月 25, 2020 12:14:29 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.0
+二月 25, 2020 12:14:29 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+二月 25, 2020 12:14:29 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             E:\Program Files\jdk8-191\jre
+二月 25, 2020 12:14:29 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_191-b12
+二月 25, 2020 12:14:29 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+二月 25, 2020 12:14:29 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:14:29 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:14:29 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=F:\HOW2J\tmall\tomcat\conf\logging.properties
+二月 25, 2020 12:14:29 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+二月 25, 2020 12:14:29 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=F:\HOW2J\tmall\tomcat\endorsed
+二月 25, 2020 12:14:29 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:14:29 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:14:29 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=F:\HOW2J\tmall\tomcat\temp
+二月 25, 2020 12:14:29 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: E:\Program Files\jdk8-191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;E:\Program Files\CodeBlocks\MinGW\bin;E:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;E:\Program Files\matlab2018a\bin;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\jdk8-191\bin;E:\Program Files\jdk8-191\jre\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\Program Files\python3.6.1\Scripts\;E:\Program Files\python3.6.1\;C:\Users\Jay\AppData\Local\Microsoft\WindowsApps;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\Git\cmd;C:\Users\Jay\AppData\Roaming\Python\Python36\Scripts;E:\ProgramYin\mingw64\bin;;E:\ProgramYin\IntelliJ IDEA 2019.3.3\bin;;.
+二月 25, 2020 12:14:29 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:14:29 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:14:29 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 658 ms
+二月 25, 2020 12:14:29 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+二月 25, 2020 12:14:29 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+二月 25, 2020 12:14:29 上午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(F:\HOW2J\tmall\web\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 25, 2020 12:14:30 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 12:14:30 上午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [223] milliseconds.
+二月 25, 2020 12:14:30 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:14:30 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:14:30 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 812 ms
+二月 25, 2020 12:18:24 上午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+二月 25, 2020 12:18:24 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:18:24 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:18:24 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+二月 25, 2020 12:18:24 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:18:24 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:18:24 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:18:24 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:18:25 上午 org.apache.catalina.core.StandardContext setPath
+警告: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+二月 25, 2020 12:18:25 上午 org.apache.tomcat.util.digester.SetPropertiesRule begin
+警告: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+二月 25, 2020 12:18:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+二月 25, 2020 12:18:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+二月 25, 2020 12:18:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+二月 25, 2020 12:18:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+二月 25, 2020 12:18:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.0
+二月 25, 2020 12:18:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+二月 25, 2020 12:18:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             E:\Program Files\jdk8-191\jre
+二月 25, 2020 12:18:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_191-b12
+二月 25, 2020 12:18:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+二月 25, 2020 12:18:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:18:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:18:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=F:\HOW2J\tmall\tomcat\conf\logging.properties
+二月 25, 2020 12:18:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+二月 25, 2020 12:18:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=F:\HOW2J\tmall\tomcat\endorsed
+二月 25, 2020 12:18:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:18:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:18:25 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=F:\HOW2J\tmall\tomcat\temp
+二月 25, 2020 12:18:25 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: E:\Program Files\jdk8-191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;E:\Program Files\CodeBlocks\MinGW\bin;E:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;E:\Program Files\matlab2018a\bin;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\jdk8-191\bin;E:\Program Files\jdk8-191\jre\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\Program Files\python3.6.1\Scripts\;E:\Program Files\python3.6.1\;C:\Users\Jay\AppData\Local\Microsoft\WindowsApps;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\Git\cmd;C:\Users\Jay\AppData\Roaming\Python\Python36\Scripts;E:\ProgramYin\mingw64\bin;;E:\ProgramYin\IntelliJ IDEA 2019.3.3\bin;;.
+二月 25, 2020 12:18:25 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:18:25 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:18:25 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 630 ms
+二月 25, 2020 12:18:25 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+二月 25, 2020 12:18:25 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+二月 25, 2020 12:18:25 上午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(F:\HOW2J\tmall\web\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 25, 2020 12:18:26 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 12:18:26 上午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [213] milliseconds.
+二月 25, 2020 12:18:26 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:18:26 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:18:26 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 812 ms
+二月 25, 2020 12:18:29 上午 org.apache.jasper.compiler.TldLocationsCache tldScanJar
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 12:29:34 上午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+二月 25, 2020 12:29:34 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:29:34 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:29:34 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+二月 25, 2020 12:29:34 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:29:34 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:29:34 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:29:34 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:29:35 上午 org.apache.catalina.core.StandardContext setPath
+警告: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+二月 25, 2020 12:29:35 上午 org.apache.tomcat.util.digester.SetPropertiesRule begin
+警告: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+二月 25, 2020 12:29:35 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+二月 25, 2020 12:29:35 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+二月 25, 2020 12:29:35 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+二月 25, 2020 12:29:35 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+二月 25, 2020 12:29:35 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.0
+二月 25, 2020 12:29:35 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+二月 25, 2020 12:29:35 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             E:\Program Files\jdk8-191\jre
+二月 25, 2020 12:29:35 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_191-b12
+二月 25, 2020 12:29:35 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+二月 25, 2020 12:29:35 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:29:35 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:29:35 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=F:\HOW2J\tmall\tomcat\conf\logging.properties
+二月 25, 2020 12:29:35 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+二月 25, 2020 12:29:35 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=F:\HOW2J\tmall\tomcat\endorsed
+二月 25, 2020 12:29:35 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:29:35 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:29:35 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=F:\HOW2J\tmall\tomcat\temp
+二月 25, 2020 12:29:35 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: E:\Program Files\jdk8-191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;E:\Program Files\CodeBlocks\MinGW\bin;E:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;E:\Program Files\matlab2018a\bin;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\jdk8-191\bin;E:\Program Files\jdk8-191\jre\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\Program Files\python3.6.1\Scripts\;E:\Program Files\python3.6.1\;C:\Users\Jay\AppData\Local\Microsoft\WindowsApps;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\Git\cmd;C:\Users\Jay\AppData\Roaming\Python\Python36\Scripts;E:\ProgramYin\mingw64\bin;;E:\ProgramYin\IntelliJ IDEA 2019.3.3\bin;;.
+二月 25, 2020 12:29:35 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:29:35 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:29:35 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 672 ms
+二月 25, 2020 12:29:35 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+二月 25, 2020 12:29:35 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+二月 25, 2020 12:29:35 上午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(F:\HOW2J\tmall\web\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 25, 2020 12:29:36 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 12:29:36 上午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [257] milliseconds.
+二月 25, 2020 12:29:36 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:29:36 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:29:36 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 979 ms
+二月 25, 2020 12:42:52 上午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+二月 25, 2020 12:42:52 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:42:52 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:42:52 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+二月 25, 2020 12:42:52 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+严重: The web application [] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+二月 25, 2020 12:42:52 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+严重: The web application [] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+二月 25, 2020 12:42:52 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:42:52 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:42:52 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:42:52 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:42:53 上午 org.apache.catalina.core.StandardContext setPath
+警告: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+二月 25, 2020 12:42:53 上午 org.apache.tomcat.util.digester.SetPropertiesRule begin
+警告: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+二月 25, 2020 12:42:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+二月 25, 2020 12:42:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+二月 25, 2020 12:42:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+二月 25, 2020 12:42:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+二月 25, 2020 12:42:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.0
+二月 25, 2020 12:42:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+二月 25, 2020 12:42:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             E:\Program Files\jdk8-191\jre
+二月 25, 2020 12:42:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_191-b12
+二月 25, 2020 12:42:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+二月 25, 2020 12:42:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:42:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:42:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=F:\HOW2J\tmall\tomcat\conf\logging.properties
+二月 25, 2020 12:42:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+二月 25, 2020 12:42:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=F:\HOW2J\tmall\tomcat\endorsed
+二月 25, 2020 12:42:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:42:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:42:53 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=F:\HOW2J\tmall\tomcat\temp
+二月 25, 2020 12:42:53 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: E:\Program Files\jdk8-191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;E:\Program Files\CodeBlocks\MinGW\bin;E:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;E:\Program Files\matlab2018a\bin;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\jdk8-191\bin;E:\Program Files\jdk8-191\jre\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\Program Files\python3.6.1\Scripts\;E:\Program Files\python3.6.1\;C:\Users\Jay\AppData\Local\Microsoft\WindowsApps;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\Git\cmd;C:\Users\Jay\AppData\Roaming\Python\Python36\Scripts;E:\ProgramYin\mingw64\bin;;E:\ProgramYin\IntelliJ IDEA 2019.3.3\bin;;.
+二月 25, 2020 12:42:53 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:42:53 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:42:53 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 612 ms
+二月 25, 2020 12:42:53 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+二月 25, 2020 12:42:53 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+二月 25, 2020 12:42:53 上午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(F:\HOW2J\tmall\web\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 25, 2020 12:42:53 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 12:42:54 上午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [216] milliseconds.
+二月 25, 2020 12:42:54 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:42:54 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:42:54 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 888 ms
+二月 25, 2020 1:03:22 上午 org.apache.catalina.core.StandardContext setPath
+警告: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+二月 25, 2020 1:03:22 上午 org.apache.tomcat.util.digester.SetPropertiesRule begin
+警告: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+二月 25, 2020 1:03:22 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+二月 25, 2020 1:03:22 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+二月 25, 2020 1:03:22 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+二月 25, 2020 1:03:22 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+二月 25, 2020 1:03:22 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.0
+二月 25, 2020 1:03:22 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+二月 25, 2020 1:03:22 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             E:\Program Files\jdk8-191\jre
+二月 25, 2020 1:03:22 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_191-b12
+二月 25, 2020 1:03:22 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+二月 25, 2020 1:03:22 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 1:03:22 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 1:03:22 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=F:\HOW2J\tmall\tomcat\conf\logging.properties
+二月 25, 2020 1:03:22 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+二月 25, 2020 1:03:22 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=F:\HOW2J\tmall\tomcat\endorsed
+二月 25, 2020 1:03:22 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=F:\HOW2J\tmall\tomcat
+二月 25, 2020 1:03:22 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=F:\HOW2J\tmall\tomcat
+二月 25, 2020 1:03:22 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=F:\HOW2J\tmall\tomcat\temp
+二月 25, 2020 1:03:22 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: E:\Program Files\jdk8-191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;E:\Program Files\CodeBlocks\MinGW\bin;E:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;E:\Program Files\matlab2018a\bin;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\jdk8-191\bin;E:\Program Files\jdk8-191\jre\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\Program Files\python3.6.1\Scripts\;E:\Program Files\python3.6.1\;C:\Users\Jay\AppData\Local\Microsoft\WindowsApps;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\Git\cmd;C:\Users\Jay\AppData\Roaming\Python\Python36\Scripts;E:\ProgramYin\mingw64\bin;;E:\ProgramYin\IntelliJ IDEA 2019.3.3\bin;;.
+二月 25, 2020 1:03:22 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 1:03:22 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 1:03:22 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 705 ms
+二月 25, 2020 1:03:22 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+二月 25, 2020 1:03:22 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+二月 25, 2020 1:03:22 上午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(F:\HOW2J\tmall\web\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 25, 2020 1:03:22 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 1:03:23 上午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [249] milliseconds.
+二月 25, 2020 1:03:23 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-80"]
+二月 25, 2020 1:03:23 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 1:03:23 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 878 ms
+二月 25, 2020 1:08:13 上午 org.apache.catalina.core.StandardContext reload
+信息: Reloading Context with name [] has started
+二月 25, 2020 1:08:13 上午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(F:\HOW2J\tmall\web\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 25, 2020 1:08:13 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 1:08:13 上午 org.apache.catalina.core.StandardContext reload
+信息: Reloading Context with name [] is completed
+二月 25, 2020 1:11:53 上午 org.apache.catalina.core.StandardContext reload
+信息: Reloading Context with name [] has started
+二月 25, 2020 1:11:53 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+严重: The web application [] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+二月 25, 2020 1:11:53 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+严重: The web application [] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+二月 25, 2020 1:11:53 上午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(F:\HOW2J\tmall\web\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 25, 2020 1:11:53 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 1:11:53 上午 org.apache.catalina.core.StandardContext reload
+信息: Reloading Context with name [] is completed
+二月 25, 2020 1:30:14 上午 org.apache.catalina.core.StandardContext reload
+信息: Reloading Context with name [] has started
+二月 25, 2020 1:30:55 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+严重: The web application [] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+二月 25, 2020 1:30:55 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+严重: The web application [] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+二月 25, 2020 1:30:55 上午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(F:\HOW2J\tmall\web\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 25, 2020 1:30:55 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 1:30:55 上午 org.apache.catalina.core.StandardContext reload
+信息: Reloading Context with name [] is completed
+二月 25, 2020 1:38:16 上午 org.apache.catalina.core.StandardContext reload
+信息: Reloading Context with name [] has started
+二月 25, 2020 1:38:16 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+严重: The web application [] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+二月 25, 2020 1:38:16 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+严重: The web application [] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+二月 25, 2020 1:38:16 上午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(F:\HOW2J\tmall\web\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 25, 2020 1:38:16 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 1:38:16 上午 org.apache.catalina.core.StandardContext reload
+信息: Reloading Context with name [] is completed
+二月 25, 2020 1:48:16 上午 org.apache.catalina.core.StandardContext reload
+信息: Reloading Context with name [] has started
+二月 25, 2020 1:48:24 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+严重: The web application [] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+二月 25, 2020 1:48:24 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+严重: The web application [] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+二月 25, 2020 1:48:24 上午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(F:\HOW2J\tmall\web\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 25, 2020 1:48:24 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 1:48:24 上午 org.apache.catalina.core.StandardContext reload
+信息: Reloading Context with name [] is completed
+二月 25, 2020 1:50:14 上午 org.apache.catalina.core.StandardContext reload
+信息: Reloading Context with name [] has started
+二月 25, 2020 1:50:14 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+严重: The web application [] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+二月 25, 2020 1:50:14 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+严重: The web application [] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+二月 25, 2020 1:50:14 上午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(F:\HOW2J\tmall\web\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 25, 2020 1:50:14 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 1:50:14 上午 org.apache.catalina.core.StandardContext reload
+信息: Reloading Context with name [] is completed
+二月 25, 2020 2:00:45 上午 org.apache.catalina.loader.WebappClassLoader modified
+严重:     Resource '/WEB-INF/classes/tmall/filter/BackServletFilter.class' is missing
+二月 25, 2020 2:00:45 上午 org.apache.catalina.core.StandardContext reload
+信息: Reloading Context with name [] has started
+二月 25, 2020 2:00:45 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+严重: The web application [] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+二月 25, 2020 2:00:45 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+严重: The web application [] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+二月 25, 2020 2:00:45 上午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(F:\HOW2J\tmall\web\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 25, 2020 2:00:46 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 2:00:46 上午 org.apache.catalina.core.StandardContext reload
+信息: Reloading Context with name [] is completed
+二月 25, 2020 10:09:09 上午 org.apache.catalina.core.StandardContext setPath
+警告: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+二月 25, 2020 10:09:09 上午 org.apache.tomcat.util.digester.SetPropertiesRule begin
+警告: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+二月 25, 2020 10:09:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+二月 25, 2020 10:09:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+二月 25, 2020 10:09:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+二月 25, 2020 10:09:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+二月 25, 2020 10:09:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.0
+二月 25, 2020 10:09:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+二月 25, 2020 10:09:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             E:\Program Files\jdk8-191\jre
+二月 25, 2020 10:09:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_191-b12
+二月 25, 2020 10:09:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+二月 25, 2020 10:09:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 10:09:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 10:09:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=F:\HOW2J\tmall\tomcat\conf\logging.properties
+二月 25, 2020 10:09:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+二月 25, 2020 10:09:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=F:\HOW2J\tmall\tomcat\endorsed
+二月 25, 2020 10:09:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=F:\HOW2J\tmall\tomcat
+二月 25, 2020 10:09:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=F:\HOW2J\tmall\tomcat
+二月 25, 2020 10:09:09 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=F:\HOW2J\tmall\tomcat\temp
+二月 25, 2020 10:09:09 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: E:\Program Files\jdk8-191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;E:\Program Files\CodeBlocks\MinGW\bin;E:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;E:\Program Files\matlab2018a\bin;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\jdk8-191\bin;E:\Program Files\jdk8-191\jre\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\Program Files\python3.6.1\Scripts\;E:\Program Files\python3.6.1\;C:\Users\Jay\AppData\Local\Microsoft\WindowsApps;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\Git\cmd;C:\Users\Jay\AppData\Roaming\Python\Python36\Scripts;E:\ProgramYin\mingw64\bin;;E:\ProgramYin\IntelliJ IDEA 2019.3.3\bin;;.
+二月 25, 2020 10:09:09 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 10:09:09 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 10:09:09 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 765 ms
+二月 25, 2020 10:09:09 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+二月 25, 2020 10:09:09 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+二月 25, 2020 10:09:09 上午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(F:\HOW2J\tmall\web\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 25, 2020 10:09:10 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 10:09:10 上午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [229] milliseconds.
+二月 25, 2020 10:09:10 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-80"]
+二月 25, 2020 10:09:10 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 10:09:10 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 889 ms
+二月 25, 2020 10:26:17 上午 org.apache.catalina.core.StandardContext setPath
+警告: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+二月 25, 2020 10:26:17 上午 org.apache.tomcat.util.digester.SetPropertiesRule begin
+警告: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+二月 25, 2020 10:26:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+二月 25, 2020 10:26:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+二月 25, 2020 10:26:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+二月 25, 2020 10:26:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+二月 25, 2020 10:26:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.0
+二月 25, 2020 10:26:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+二月 25, 2020 10:26:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             E:\Program Files\jdk8-191\jre
+二月 25, 2020 10:26:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_191-b12
+二月 25, 2020 10:26:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+二月 25, 2020 10:26:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 10:26:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 10:26:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=F:\HOW2J\tmall\tomcat\conf\logging.properties
+二月 25, 2020 10:26:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+二月 25, 2020 10:26:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=F:\HOW2J\tmall\tomcat\endorsed
+二月 25, 2020 10:26:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=F:\HOW2J\tmall\tomcat
+二月 25, 2020 10:26:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=F:\HOW2J\tmall\tomcat
+二月 25, 2020 10:26:17 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=F:\HOW2J\tmall\tomcat\temp
+二月 25, 2020 10:26:17 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: E:\Program Files\jdk8-191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;E:\Program Files\CodeBlocks\MinGW\bin;E:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;E:\Program Files\matlab2018a\bin;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\jdk8-191\bin;E:\Program Files\jdk8-191\jre\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\Program Files\python3.6.1\Scripts\;E:\Program Files\python3.6.1\;C:\Users\Jay\AppData\Local\Microsoft\WindowsApps;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\Git\cmd;C:\Users\Jay\AppData\Roaming\Python\Python36\Scripts;E:\ProgramYin\mingw64\bin;;E:\ProgramYin\IntelliJ IDEA 2019.3.3\bin;;.
+二月 25, 2020 10:26:18 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 10:26:18 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 10:26:18 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 657 ms
+二月 25, 2020 10:26:18 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+二月 25, 2020 10:26:18 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+二月 25, 2020 10:26:18 上午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(F:\HOW2J\tmall\web\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 25, 2020 10:26:18 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 10:26:18 上午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [225] milliseconds.
+二月 25, 2020 10:26:18 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-80"]
+二月 25, 2020 10:26:18 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 10:26:18 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 843 ms
+二月 25, 2020 10:27:32 上午 org.apache.catalina.core.StandardContext setPath
+警告: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+二月 25, 2020 10:27:32 上午 org.apache.tomcat.util.digester.SetPropertiesRule begin
+警告: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+二月 25, 2020 10:27:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+二月 25, 2020 10:27:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+二月 25, 2020 10:27:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+二月 25, 2020 10:27:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+二月 25, 2020 10:27:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.0
+二月 25, 2020 10:27:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+二月 25, 2020 10:27:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             E:\Program Files\jdk8-191\jre
+二月 25, 2020 10:27:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_191-b12
+二月 25, 2020 10:27:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+二月 25, 2020 10:27:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 10:27:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 10:27:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=F:\HOW2J\tmall\tomcat\conf\logging.properties
+二月 25, 2020 10:27:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+二月 25, 2020 10:27:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=F:\HOW2J\tmall\tomcat\endorsed
+二月 25, 2020 10:27:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=F:\HOW2J\tmall\tomcat
+二月 25, 2020 10:27:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=F:\HOW2J\tmall\tomcat
+二月 25, 2020 10:27:32 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=F:\HOW2J\tmall\tomcat\temp
+二月 25, 2020 10:27:32 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: E:\Program Files\jdk8-191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;E:\Program Files\CodeBlocks\MinGW\bin;E:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;E:\Program Files\matlab2018a\bin;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\jdk8-191\bin;E:\Program Files\jdk8-191\jre\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\Program Files\python3.6.1\Scripts\;E:\Program Files\python3.6.1\;C:\Users\Jay\AppData\Local\Microsoft\WindowsApps;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\Git\cmd;C:\Users\Jay\AppData\Roaming\Python\Python36\Scripts;E:\ProgramYin\mingw64\bin;;E:\ProgramYin\IntelliJ IDEA 2019.3.3\bin;;.
+二月 25, 2020 10:27:33 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 10:27:33 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 10:27:33 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 867 ms
+二月 25, 2020 10:27:33 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+二月 25, 2020 10:27:33 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+二月 25, 2020 10:27:33 上午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(F:\HOW2J\tmall\web\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 25, 2020 10:27:33 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 10:27:33 上午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [238] milliseconds.
+二月 25, 2020 10:27:33 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-80"]
+二月 25, 2020 10:27:33 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 10:27:33 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 868 ms
+二月 25, 2020 11:03:56 上午 org.apache.catalina.core.StandardContext setPath
+警告: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+二月 25, 2020 11:03:56 上午 org.apache.tomcat.util.digester.SetPropertiesRule begin
+警告: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+二月 25, 2020 11:03:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+二月 25, 2020 11:03:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+二月 25, 2020 11:03:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+二月 25, 2020 11:03:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+二月 25, 2020 11:03:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.0
+二月 25, 2020 11:03:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+二月 25, 2020 11:03:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             E:\Program Files\jdk8-191\jre
+二月 25, 2020 11:03:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_191-b12
+二月 25, 2020 11:03:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+二月 25, 2020 11:03:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 11:03:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 11:03:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=F:\HOW2J\tmall\tomcat\conf\logging.properties
+二月 25, 2020 11:03:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+二月 25, 2020 11:03:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=F:\HOW2J\tmall\tomcat\endorsed
+二月 25, 2020 11:03:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=F:\HOW2J\tmall\tomcat
+二月 25, 2020 11:03:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=F:\HOW2J\tmall\tomcat
+二月 25, 2020 11:03:56 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=F:\HOW2J\tmall\tomcat\temp
+二月 25, 2020 11:03:56 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: E:\Program Files\jdk8-191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;E:\Program Files\CodeBlocks\MinGW\bin;E:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;E:\Program Files\matlab2018a\bin;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\jdk8-191\bin;E:\Program Files\jdk8-191\jre\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\Program Files\python3.6.1\Scripts\;E:\Program Files\python3.6.1\;C:\Users\Jay\AppData\Local\Microsoft\WindowsApps;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\Git\cmd;C:\Users\Jay\AppData\Roaming\Python\Python36\Scripts;E:\ProgramYin\mingw64\bin;;E:\ProgramYin\IntelliJ IDEA 2019.3.3\bin;;.
+二月 25, 2020 11:03:56 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 11:03:56 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 11:03:56 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 597 ms
+二月 25, 2020 11:03:56 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+二月 25, 2020 11:03:56 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+二月 25, 2020 11:03:56 上午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(F:\HOW2J\tmall\web\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 25, 2020 11:03:56 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 11:03:57 上午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [218] milliseconds.
+二月 25, 2020 11:03:57 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-80"]
+二月 25, 2020 11:03:57 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 11:03:57 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 774 ms
+二月 25, 2020 11:04:09 上午 org.apache.jasper.compiler.TldLocationsCache tldScanJar
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 11:51:17 上午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+二月 25, 2020 11:51:17 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 11:51:17 上午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 11:51:17 上午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+二月 25, 2020 11:51:17 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+严重: The web application [] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+二月 25, 2020 11:51:17 上午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+严重: The web application [] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+二月 25, 2020 11:51:17 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-80"]
+二月 25, 2020 11:51:17 上午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 11:51:17 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-80"]
+二月 25, 2020 11:51:17 上午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 11:51:18 上午 org.apache.catalina.core.StandardContext setPath
+警告: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+二月 25, 2020 11:51:18 上午 org.apache.tomcat.util.digester.SetPropertiesRule begin
+警告: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+二月 25, 2020 11:51:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+二月 25, 2020 11:51:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+二月 25, 2020 11:51:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+二月 25, 2020 11:51:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+二月 25, 2020 11:51:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.0
+二月 25, 2020 11:51:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+二月 25, 2020 11:51:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             E:\Program Files\jdk8-191\jre
+二月 25, 2020 11:51:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_191-b12
+二月 25, 2020 11:51:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+二月 25, 2020 11:51:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 11:51:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 11:51:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=F:\HOW2J\tmall\tomcat\conf\logging.properties
+二月 25, 2020 11:51:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+二月 25, 2020 11:51:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=F:\HOW2J\tmall\tomcat\endorsed
+二月 25, 2020 11:51:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=F:\HOW2J\tmall\tomcat
+二月 25, 2020 11:51:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=F:\HOW2J\tmall\tomcat
+二月 25, 2020 11:51:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=F:\HOW2J\tmall\tomcat\temp
+二月 25, 2020 11:51:18 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: E:\Program Files\jdk8-191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;E:\Program Files\CodeBlocks\MinGW\bin;E:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;E:\Program Files\matlab2018a\bin;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\jdk8-191\bin;E:\Program Files\jdk8-191\jre\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\Program Files\python3.6.1\Scripts\;E:\Program Files\python3.6.1\;C:\Users\Jay\AppData\Local\Microsoft\WindowsApps;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\Git\cmd;C:\Users\Jay\AppData\Roaming\Python\Python36\Scripts;E:\ProgramYin\mingw64\bin;;E:\ProgramYin\IntelliJ IDEA 2019.3.3\bin;;.
+二月 25, 2020 11:51:18 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 11:51:18 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 11:51:18 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 699 ms
+二月 25, 2020 11:51:18 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+二月 25, 2020 11:51:18 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+二月 25, 2020 11:51:18 上午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(F:\HOW2J\tmall\web\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 25, 2020 11:51:19 上午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 11:51:19 上午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [312] milliseconds.
+二月 25, 2020 11:51:19 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-80"]
+二月 25, 2020 11:51:19 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 11:51:19 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 1007 ms
+二月 25, 2020 11:59:14 上午 org.apache.jasper.compiler.TldLocationsCache tldScanJar
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 12:01:08 下午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+二月 25, 2020 12:01:08 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:01:08 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:01:08 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+二月 25, 2020 12:01:08 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+严重: The web application [] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+二月 25, 2020 12:01:08 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+严重: The web application [] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+二月 25, 2020 12:01:08 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:01:08 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:01:08 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:01:08 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:01:09 下午 org.apache.catalina.core.StandardContext setPath
+警告: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+二月 25, 2020 12:01:09 下午 org.apache.tomcat.util.digester.SetPropertiesRule begin
+警告: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+二月 25, 2020 12:01:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+二月 25, 2020 12:01:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+二月 25, 2020 12:01:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+二月 25, 2020 12:01:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+二月 25, 2020 12:01:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.0
+二月 25, 2020 12:01:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+二月 25, 2020 12:01:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             E:\Program Files\jdk8-191\jre
+二月 25, 2020 12:01:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_191-b12
+二月 25, 2020 12:01:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+二月 25, 2020 12:01:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:01:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:01:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=F:\HOW2J\tmall\tomcat\conf\logging.properties
+二月 25, 2020 12:01:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+二月 25, 2020 12:01:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=F:\HOW2J\tmall\tomcat\endorsed
+二月 25, 2020 12:01:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:01:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:01:09 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=F:\HOW2J\tmall\tomcat\temp
+二月 25, 2020 12:01:09 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: E:\Program Files\jdk8-191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;E:\Program Files\CodeBlocks\MinGW\bin;E:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;E:\Program Files\matlab2018a\bin;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\jdk8-191\bin;E:\Program Files\jdk8-191\jre\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\Program Files\python3.6.1\Scripts\;E:\Program Files\python3.6.1\;C:\Users\Jay\AppData\Local\Microsoft\WindowsApps;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\Git\cmd;C:\Users\Jay\AppData\Roaming\Python\Python36\Scripts;E:\ProgramYin\mingw64\bin;;E:\ProgramYin\IntelliJ IDEA 2019.3.3\bin;;.
+二月 25, 2020 12:01:09 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:01:09 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:01:09 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 677 ms
+二月 25, 2020 12:01:09 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+二月 25, 2020 12:01:09 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+二月 25, 2020 12:01:09 下午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(F:\HOW2J\tmall\web\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 25, 2020 12:01:10 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 12:01:10 下午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [228] milliseconds.
+二月 25, 2020 12:01:10 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:01:10 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:01:10 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 1043 ms
+二月 25, 2020 12:01:34 下午 org.apache.jasper.compiler.TldLocationsCache tldScanJar
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 12:45:23 下午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+二月 25, 2020 12:45:23 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:45:23 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:45:23 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+二月 25, 2020 12:45:23 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+严重: The web application [] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+二月 25, 2020 12:45:23 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+严重: The web application [] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+二月 25, 2020 12:45:23 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:45:23 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:45:23 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:45:23 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:45:24 下午 org.apache.catalina.core.StandardContext setPath
+警告: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+二月 25, 2020 12:45:24 下午 org.apache.tomcat.util.digester.SetPropertiesRule begin
+警告: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+二月 25, 2020 12:45:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+二月 25, 2020 12:45:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+二月 25, 2020 12:45:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+二月 25, 2020 12:45:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+二月 25, 2020 12:45:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.0
+二月 25, 2020 12:45:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+二月 25, 2020 12:45:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             E:\Program Files\jdk8-191\jre
+二月 25, 2020 12:45:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_191-b12
+二月 25, 2020 12:45:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+二月 25, 2020 12:45:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:45:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:45:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=F:\HOW2J\tmall\tomcat\conf\logging.properties
+二月 25, 2020 12:45:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+二月 25, 2020 12:45:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=F:\HOW2J\tmall\tomcat\endorsed
+二月 25, 2020 12:45:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:45:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=F:\HOW2J\tmall\tomcat
+二月 25, 2020 12:45:24 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=F:\HOW2J\tmall\tomcat\temp
+二月 25, 2020 12:45:24 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: E:\Program Files\jdk8-191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;E:\Program Files\CodeBlocks\MinGW\bin;E:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;E:\Program Files\matlab2018a\bin;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\jdk8-191\bin;E:\Program Files\jdk8-191\jre\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\Program Files\python3.6.1\Scripts\;E:\Program Files\python3.6.1\;C:\Users\Jay\AppData\Local\Microsoft\WindowsApps;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\Git\cmd;C:\Users\Jay\AppData\Roaming\Python\Python36\Scripts;E:\ProgramYin\mingw64\bin;;E:\ProgramYin\IntelliJ IDEA 2019.3.3\bin;;.
+二月 25, 2020 12:45:24 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:45:24 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:45:24 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 816 ms
+二月 25, 2020 12:45:24 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+二月 25, 2020 12:45:24 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+二月 25, 2020 12:45:24 下午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(F:\HOW2J\tmall\web\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 25, 2020 12:45:25 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 12:45:25 下午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [217] milliseconds.
+二月 25, 2020 12:45:25 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-80"]
+二月 25, 2020 12:45:25 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 12:45:25 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 941 ms
+二月 25, 2020 12:45:30 下午 org.apache.jasper.compiler.TldLocationsCache tldScanJar
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 2:41:53 下午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+二月 25, 2020 2:41:53 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 2:41:53 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 2:41:53 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+二月 25, 2020 2:41:53 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+严重: The web application [] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+二月 25, 2020 2:41:53 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+严重: The web application [] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+二月 25, 2020 2:41:53 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-80"]
+二月 25, 2020 2:41:53 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 2:41:53 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-80"]
+二月 25, 2020 2:41:53 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 2:41:54 下午 org.apache.catalina.core.StandardContext setPath
+警告: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+二月 25, 2020 2:41:54 下午 org.apache.tomcat.util.digester.SetPropertiesRule begin
+警告: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+二月 25, 2020 2:41:54 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+二月 25, 2020 2:41:54 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+二月 25, 2020 2:41:54 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+二月 25, 2020 2:41:54 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+二月 25, 2020 2:41:54 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.0
+二月 25, 2020 2:41:54 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+二月 25, 2020 2:41:54 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             E:\Program Files\jdk8-191\jre
+二月 25, 2020 2:41:54 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_191-b12
+二月 25, 2020 2:41:54 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+二月 25, 2020 2:41:54 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 2:41:54 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 2:41:54 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=F:\HOW2J\tmall\tomcat\conf\logging.properties
+二月 25, 2020 2:41:54 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+二月 25, 2020 2:41:54 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=F:\HOW2J\tmall\tomcat\endorsed
+二月 25, 2020 2:41:54 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=F:\HOW2J\tmall\tomcat
+二月 25, 2020 2:41:54 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=F:\HOW2J\tmall\tomcat
+二月 25, 2020 2:41:54 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=F:\HOW2J\tmall\tomcat\temp
+二月 25, 2020 2:41:54 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: E:\Program Files\jdk8-191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;E:\Program Files\CodeBlocks\MinGW\bin;E:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;E:\Program Files\matlab2018a\bin;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\jdk8-191\bin;E:\Program Files\jdk8-191\jre\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\Program Files\python3.6.1\Scripts\;E:\Program Files\python3.6.1\;C:\Users\Jay\AppData\Local\Microsoft\WindowsApps;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\Git\cmd;C:\Users\Jay\AppData\Roaming\Python\Python36\Scripts;E:\ProgramYin\mingw64\bin;;E:\ProgramYin\IntelliJ IDEA 2019.3.3\bin;;.
+二月 25, 2020 2:41:54 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 2:41:54 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 2:41:54 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 716 ms
+二月 25, 2020 2:41:54 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+二月 25, 2020 2:41:54 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+二月 25, 2020 2:41:55 下午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(F:\HOW2J\tmall\web\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 25, 2020 2:41:55 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 2:41:55 下午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [209] milliseconds.
+二月 25, 2020 2:41:55 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-80"]
+二月 25, 2020 2:41:55 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 2:41:55 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 819 ms
+二月 25, 2020 2:42:00 下午 org.apache.jasper.compiler.TldLocationsCache tldScanJar
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 10:30:09 下午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+二月 25, 2020 10:30:09 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 10:30:09 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 10:30:09 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+二月 25, 2020 10:30:09 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+严重: The web application [] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+二月 25, 2020 10:30:09 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+严重: The web application [] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+二月 25, 2020 10:30:09 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-80"]
+二月 25, 2020 10:30:09 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 10:30:09 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-80"]
+二月 25, 2020 10:30:09 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 10:30:10 下午 org.apache.catalina.core.StandardContext setPath
+警告: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+二月 25, 2020 10:30:10 下午 org.apache.tomcat.util.digester.SetPropertiesRule begin
+警告: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+二月 25, 2020 10:30:10 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+二月 25, 2020 10:30:10 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+二月 25, 2020 10:30:10 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+二月 25, 2020 10:30:10 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+二月 25, 2020 10:30:10 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.0
+二月 25, 2020 10:30:10 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+二月 25, 2020 10:30:10 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             E:\Program Files\jdk8-191\jre
+二月 25, 2020 10:30:10 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_191-b12
+二月 25, 2020 10:30:10 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+二月 25, 2020 10:30:10 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 10:30:10 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 10:30:10 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=F:\HOW2J\tmall\tomcat\conf\logging.properties
+二月 25, 2020 10:30:10 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+二月 25, 2020 10:30:10 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=F:\HOW2J\tmall\tomcat\endorsed
+二月 25, 2020 10:30:10 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=F:\HOW2J\tmall\tomcat
+二月 25, 2020 10:30:10 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=F:\HOW2J\tmall\tomcat
+二月 25, 2020 10:30:10 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=F:\HOW2J\tmall\tomcat\temp
+二月 25, 2020 10:30:10 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: E:\Program Files\jdk8-191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;E:\Program Files\CodeBlocks\MinGW\bin;E:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;E:\Program Files\matlab2018a\bin;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\jdk8-191\bin;E:\Program Files\jdk8-191\jre\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\Program Files\python3.6.1\Scripts\;E:\Program Files\python3.6.1\;C:\Users\Jay\AppData\Local\Microsoft\WindowsApps;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\Git\cmd;C:\Users\Jay\AppData\Roaming\Python\Python36\Scripts;E:\ProgramYin\mingw64\bin;;E:\ProgramYin\IntelliJ IDEA 2019.3.3\bin;;.
+二月 25, 2020 10:30:10 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 10:30:10 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 10:30:10 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 740 ms
+二月 25, 2020 10:30:10 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+二月 25, 2020 10:30:10 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+二月 25, 2020 10:30:10 下午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(F:\HOW2J\tmall\web\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 25, 2020 10:30:11 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 10:30:11 下午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [237] milliseconds.
+二月 25, 2020 10:30:11 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-80"]
+二月 25, 2020 10:30:11 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 10:30:11 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 907 ms
+二月 25, 2020 10:30:19 下午 org.apache.jasper.compiler.TldLocationsCache tldScanJar
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 11:25:27 下午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+二月 25, 2020 11:25:27 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 11:25:27 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 11:25:27 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+二月 25, 2020 11:25:27 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+严重: The web application [] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+二月 25, 2020 11:25:27 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+严重: The web application [] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+二月 25, 2020 11:25:27 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-80"]
+二月 25, 2020 11:25:27 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 11:25:27 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-80"]
+二月 25, 2020 11:25:27 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 11:25:28 下午 org.apache.catalina.core.StandardContext setPath
+警告: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+二月 25, 2020 11:25:28 下午 org.apache.tomcat.util.digester.SetPropertiesRule begin
+警告: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+二月 25, 2020 11:25:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+二月 25, 2020 11:25:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+二月 25, 2020 11:25:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+二月 25, 2020 11:25:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+二月 25, 2020 11:25:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.0
+二月 25, 2020 11:25:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+二月 25, 2020 11:25:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             E:\Program Files\jdk8-191\jre
+二月 25, 2020 11:25:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_191-b12
+二月 25, 2020 11:25:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+二月 25, 2020 11:25:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 11:25:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 11:25:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=F:\HOW2J\tmall\tomcat\conf\logging.properties
+二月 25, 2020 11:25:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+二月 25, 2020 11:25:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=F:\HOW2J\tmall\tomcat\endorsed
+二月 25, 2020 11:25:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=F:\HOW2J\tmall\tomcat
+二月 25, 2020 11:25:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=F:\HOW2J\tmall\tomcat
+二月 25, 2020 11:25:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=F:\HOW2J\tmall\tomcat\temp
+二月 25, 2020 11:25:28 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: E:\Program Files\jdk8-191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;E:\Program Files\CodeBlocks\MinGW\bin;E:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;E:\Program Files\matlab2018a\bin;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\jdk8-191\bin;E:\Program Files\jdk8-191\jre\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\Program Files\python3.6.1\Scripts\;E:\Program Files\python3.6.1\;C:\Users\Jay\AppData\Local\Microsoft\WindowsApps;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\Git\cmd;C:\Users\Jay\AppData\Roaming\Python\Python36\Scripts;E:\ProgramYin\mingw64\bin;;E:\ProgramYin\IntelliJ IDEA 2019.3.3\bin;;.
+二月 25, 2020 11:25:28 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 11:25:28 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 11:25:28 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 649 ms
+二月 25, 2020 11:25:28 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+二月 25, 2020 11:25:28 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+二月 25, 2020 11:25:28 下午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(F:\HOW2J\tmall\web\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 25, 2020 11:25:28 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 11:25:29 下午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [214] milliseconds.
+二月 25, 2020 11:25:29 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-80"]
+二月 25, 2020 11:25:29 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 11:25:29 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 907 ms
+二月 25, 2020 11:38:44 下午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+二月 25, 2020 11:38:44 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 11:38:44 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 11:38:44 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+二月 25, 2020 11:38:44 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+严重: The web application [] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+二月 25, 2020 11:38:44 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+严重: The web application [] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+二月 25, 2020 11:38:44 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-80"]
+二月 25, 2020 11:38:44 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 11:38:44 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-80"]
+二月 25, 2020 11:38:44 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 11:38:45 下午 org.apache.catalina.core.StandardContext setPath
+警告: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+二月 25, 2020 11:38:45 下午 org.apache.tomcat.util.digester.SetPropertiesRule begin
+警告: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+二月 25, 2020 11:38:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+二月 25, 2020 11:38:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+二月 25, 2020 11:38:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+二月 25, 2020 11:38:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+二月 25, 2020 11:38:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.0
+二月 25, 2020 11:38:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+二月 25, 2020 11:38:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             E:\Program Files\jdk8-191\jre
+二月 25, 2020 11:38:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_191-b12
+二月 25, 2020 11:38:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+二月 25, 2020 11:38:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 11:38:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 11:38:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=F:\HOW2J\tmall\tomcat\conf\logging.properties
+二月 25, 2020 11:38:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+二月 25, 2020 11:38:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=F:\HOW2J\tmall\tomcat\endorsed
+二月 25, 2020 11:38:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=F:\HOW2J\tmall\tomcat
+二月 25, 2020 11:38:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=F:\HOW2J\tmall\tomcat
+二月 25, 2020 11:38:45 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=F:\HOW2J\tmall\tomcat\temp
+二月 25, 2020 11:38:45 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: E:\Program Files\jdk8-191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;E:\Program Files\CodeBlocks\MinGW\bin;E:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;E:\Program Files\matlab2018a\bin;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\jdk8-191\bin;E:\Program Files\jdk8-191\jre\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\Program Files\python3.6.1\Scripts\;E:\Program Files\python3.6.1\;C:\Users\Jay\AppData\Local\Microsoft\WindowsApps;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\Git\cmd;C:\Users\Jay\AppData\Roaming\Python\Python36\Scripts;E:\ProgramYin\mingw64\bin;;E:\ProgramYin\IntelliJ IDEA 2019.3.3\bin;;.
+二月 25, 2020 11:38:45 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 11:38:45 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 11:38:45 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 680 ms
+二月 25, 2020 11:38:45 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+二月 25, 2020 11:38:45 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+二月 25, 2020 11:38:45 下午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(F:\HOW2J\tmall\web\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 25, 2020 11:38:46 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 11:38:46 下午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [232] milliseconds.
+二月 25, 2020 11:38:46 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-80"]
+二月 25, 2020 11:38:46 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 11:38:46 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 927 ms
+二月 25, 2020 11:47:27 下午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+二月 25, 2020 11:47:27 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 11:47:27 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 11:47:27 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+二月 25, 2020 11:47:27 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+严重: The web application [] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+二月 25, 2020 11:47:27 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+严重: The web application [] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+二月 25, 2020 11:47:27 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-80"]
+二月 25, 2020 11:47:27 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 11:47:27 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-80"]
+二月 25, 2020 11:47:27 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 11:47:28 下午 org.apache.catalina.core.StandardContext setPath
+警告: A context path must either be an empty string or start with a '/' and do not end with a '/'. The path [/] does not meet these criteria and has been changed to []
+二月 25, 2020 11:47:28 下午 org.apache.tomcat.util.digester.SetPropertiesRule begin
+警告: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+二月 25, 2020 11:47:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+二月 25, 2020 11:47:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+二月 25, 2020 11:47:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+二月 25, 2020 11:47:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 10
+二月 25, 2020 11:47:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            10.0
+二月 25, 2020 11:47:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+二月 25, 2020 11:47:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             E:\Program Files\jdk8-191\jre
+二月 25, 2020 11:47:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_191-b12
+二月 25, 2020 11:47:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+二月 25, 2020 11:47:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 11:47:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         F:\HOW2J\tmall\tomcat
+二月 25, 2020 11:47:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=F:\HOW2J\tmall\tomcat\conf\logging.properties
+二月 25, 2020 11:47:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+二月 25, 2020 11:47:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=F:\HOW2J\tmall\tomcat\endorsed
+二月 25, 2020 11:47:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=F:\HOW2J\tmall\tomcat
+二月 25, 2020 11:47:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=F:\HOW2J\tmall\tomcat
+二月 25, 2020 11:47:28 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=F:\HOW2J\tmall\tomcat\temp
+二月 25, 2020 11:47:28 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: E:\Program Files\jdk8-191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;E:\Program Files\CodeBlocks\MinGW\bin;E:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;E:\Program Files\matlab2018a\bin;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\jdk8-191\bin;E:\Program Files\jdk8-191\jre\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\Program Files\python3.6.1\Scripts\;E:\Program Files\python3.6.1\;C:\Users\Jay\AppData\Local\Microsoft\WindowsApps;E:\Program Files\Microsoft VS Code\bin;E:\Program Files\Git\cmd;C:\Users\Jay\AppData\Roaming\Python\Python36\Scripts;E:\ProgramYin\mingw64\bin;;E:\ProgramYin\IntelliJ IDEA 2019.3.3\bin;;.
+二月 25, 2020 11:47:28 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-80"]
+二月 25, 2020 11:47:28 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 11:47:28 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 669 ms
+二月 25, 2020 11:47:28 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+二月 25, 2020 11:47:28 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+二月 25, 2020 11:47:28 下午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(F:\HOW2J\tmall\web\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+二月 25, 2020 11:47:28 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+二月 25, 2020 11:47:29 下午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [221] milliseconds.
+二月 25, 2020 11:47:29 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-80"]
+二月 25, 2020 11:47:29 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8089"]
+二月 25, 2020 11:47:29 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 916 ms

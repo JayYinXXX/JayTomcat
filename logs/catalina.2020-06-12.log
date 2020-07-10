@@ -1,0 +1,276 @@
+INFO : Deploying web application directory F:/Project/jaytomcat/app2
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:/Project/jaytomcat/app2 has finished in 203ms
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deploying web application directory F:/Project/jaytomcat/webapps/javaweb
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:/Project/jaytomcat/webapps/javaweb has finished in 16ms
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deploying web application directory F:\Project\jaytomcat\webapps\app1
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:\Project\jaytomcat\webapps\app1 has finished in 0ms
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deploying web application directory F:\Project\jaytomcat\webapps\ROOT
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:\Project\jaytomcat\webapps\ROOT has finished in 0ms
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deploying web application directory F:/Project/jaytomcat/app2
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:/Project/jaytomcat/app2 has finished in 0ms
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deploying web application directory F:/Project/jaytomcat/webapps/javaweb
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:/Project/jaytomcat/webapps/javaweb has finished in 0ms
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deploying web application directory F:\Project\jaytomcat\webapps\app1
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:\Project\jaytomcat\webapps\app1 has finished in 0ms
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deploying web application directory F:\Project\jaytomcat\webapps\ROOT
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:\Project\jaytomcat\webapps\ROOT has finished in 0ms
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Server version:	JayTomcat/1.0.1
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Server logJVM
+INFO : Server built:	2020-06-04 22:20:22
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Server logJVM
+INFO : Server number:	1.0.1
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Server logJVM
+INFO : OS Name:	Windows 10
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Server logJVM
+INFO : OS Version:	10.0
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Server logJVM
+INFO : Architecture:	amd64
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Server logJVM
+INFO : Java Home:	E:\Program Files\jdk8-191\jre
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Server logJVM
+INFO : JVM Version:	1.8.0_191-b12
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Server logJVM
+INFO : JVM Vendor:	Oracle Corporation
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Server logJVM
+INFO : Initializing ProtocolHandler [http-bio-18080]
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18081]
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18082]
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Connector init
+INFO : Initialization processed in 0ms
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Service init
+INFO : Starting ProtocolHandler [http-bio-18080]
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18081]
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18082]
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Connector start
+INFO : Server startup in 15ms
+    06/12/2020 00:30:20 com.jayyin.jaytomcat.catalina.Server start
+ERROR: this is a deliberately created exception
+    06/12/2020 00:30:27 com.jayyin.jaytomcat.catalina.HttpProcessor error
+java.lang.RuntimeException: this is a deliberately created exception
+	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:39)
+	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:47)
+	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+INFO : Deploying web application directory F:/Project/jaytomcat/app2
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:/Project/jaytomcat/app2 has finished in 232ms
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deploying web application directory F:/Project/jaytomcat/webapps/javaweb
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:/Project/jaytomcat/webapps/javaweb has finished in 84ms
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deploying web application directory F:\Project\jaytomcat\webapps\app1
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:\Project\jaytomcat\webapps\app1 has finished in 5ms
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deploying web application directory F:\Project\jaytomcat\webapps\ROOT
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:\Project\jaytomcat\webapps\ROOT has finished in 1ms
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deploying web application directory F:/Project/jaytomcat/app2
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:/Project/jaytomcat/app2 has finished in 1ms
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deploying web application directory F:/Project/jaytomcat/webapps/javaweb
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:/Project/jaytomcat/webapps/javaweb has finished in 3ms
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deploying web application directory F:\Project\jaytomcat\webapps\app1
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:\Project\jaytomcat\webapps\app1 has finished in 2ms
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deploying web application directory F:\Project\jaytomcat\webapps\ROOT
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:\Project\jaytomcat\webapps\ROOT has finished in 0ms
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Server version:	JayTomcat/1.0.1
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Server logJVM
+INFO : Server built:	2020-06-04 22:20:22
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Server logJVM
+INFO : Server number:	1.0.1
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Server logJVM
+INFO : OS Name:	Windows 10
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Server logJVM
+INFO : OS Version:	10.0
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Server logJVM
+INFO : Architecture:	amd64
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Server logJVM
+INFO : Java Home:	E:\Program Files\jdk8-191\jre
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Server logJVM
+INFO : JVM Version:	1.8.0_191-b12
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Server logJVM
+INFO : JVM Vendor:	Oracle Corporation
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Server logJVM
+INFO : Initializing ProtocolHandler [http-bio-18080]
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18081]
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18082]
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Connector init
+INFO : Initialization processed in 4ms
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Service init
+INFO : Starting ProtocolHandler [http-bio-18080]
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18081]
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18082]
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Connector start
+INFO : Server startup in 38ms
+    06/12/2020 20:42:52 com.jayyin.jaytomcat.catalina.Server start
+ERROR: this is a deliberately created exception
+    06/12/2020 20:43:03 com.jayyin.jaytomcat.catalina.HttpProcessor error
+java.lang.RuntimeException: this is a deliberately created exception
+	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:39)
+	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:47)
+	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+INFO : com.jayyin.jaytomcat.watcher.ContextFileChangeWatcher@100a0419 检测到文件改动：{}fileName
+    06/12/2020 21:08:50 com.jayyin.jaytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : Reloading Context /javaweb has started
+    06/12/2020 21:08:50 com.jayyin.jaytomcat.catalina.Host reload
+INFO : Deploying web application directory F:/Project/jaytomcat/webapps/javaweb
+    06/12/2020 21:08:50 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:/Project/jaytomcat/webapps/javaweb has finished in 2ms
+    06/12/2020 21:08:50 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Reloading Context /javaweb has completed
+    06/12/2020 21:08:50 com.jayyin.jaytomcat.catalina.Host reload
+INFO : com.jayyin.jaytomcat.watcher.ContextFileChangeWatcher@56f8017c 检测到文件改动：{}fileName
+    06/12/2020 21:08:50 com.jayyin.jaytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : Reloading Context /javaweb has started
+    06/12/2020 21:08:50 com.jayyin.jaytomcat.catalina.Host reload
+INFO : Deploying web application directory F:/Project/jaytomcat/webapps/javaweb
+    06/12/2020 21:08:50 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:/Project/jaytomcat/webapps/javaweb has finished in 2ms
+    06/12/2020 21:08:50 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Reloading Context /javaweb has completed
+    06/12/2020 21:08:50 com.jayyin.jaytomcat.catalina.Host reload
+INFO : Deploying web application directory F:/Project/jaytomcat/app2
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:/Project/jaytomcat/app2 has finished in 174ms
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deploying web application directory F:/Project/jaytomcat/webapps/javaweb
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:/Project/jaytomcat/webapps/javaweb has finished in 24ms
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deploying web application directory F:\Project\jaytomcat\webapps\app1
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:\Project\jaytomcat\webapps\app1 has finished in 2ms
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deploying web application directory F:\Project\jaytomcat\webapps\ROOT
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:\Project\jaytomcat\webapps\ROOT has finished in 1ms
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deploying web application directory F:/Project/jaytomcat/app2
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:/Project/jaytomcat/app2 has finished in 0ms
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deploying web application directory F:/Project/jaytomcat/webapps/javaweb
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:/Project/jaytomcat/webapps/javaweb has finished in 2ms
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deploying web application directory F:\Project\jaytomcat\webapps\app1
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:\Project\jaytomcat\webapps\app1 has finished in 3ms
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deploying web application directory F:\Project\jaytomcat\webapps\ROOT
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:\Project\jaytomcat\webapps\ROOT has finished in 1ms
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Server version:	JayTomcat/1.0.1
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Server logJVM
+INFO : Server built:	2020-06-04 22:20:22
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Server logJVM
+INFO : Server number:	1.0.1
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Server logJVM
+INFO : OS Name:	Windows 10
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Server logJVM
+INFO : OS Version:	10.0
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Server logJVM
+INFO : Architecture:	amd64
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Server logJVM
+INFO : Java Home:	E:\Program Files\jdk8-191\jre
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Server logJVM
+INFO : JVM Version:	1.8.0_191-b12
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Server logJVM
+INFO : JVM Vendor:	Oracle Corporation
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Server logJVM
+INFO : Initializing ProtocolHandler [http-bio-18080]
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18081]
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Connector init
+INFO : Initializing ProtocolHandler [http-bio-18082]
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Connector init
+INFO : Initialization processed in 2ms
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Service init
+INFO : Starting ProtocolHandler [http-bio-18080]
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18081]
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Connector start
+INFO : Starting ProtocolHandler [http-bio-18082]
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Connector start
+INFO : Server startup in 12ms
+    06/12/2020 21:10:39 com.jayyin.jaytomcat.catalina.Server start
+INFO : com.jayyin.jaytomcat.watcher.ContextFileChangeWatcher@5222eb5c 检测到文件改动：HelloServlet111.class
+    06/12/2020 21:10:46 com.jayyin.jaytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : Reloading Context /javaweb has started
+    06/12/2020 21:10:46 com.jayyin.jaytomcat.catalina.Host reload
+INFO : Deploying web application directory F:/Project/jaytomcat/webapps/javaweb
+    06/12/2020 21:10:46 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:/Project/jaytomcat/webapps/javaweb has finished in 3ms
+    06/12/2020 21:10:46 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Reloading Context /javaweb has completed
+    06/12/2020 21:10:46 com.jayyin.jaytomcat.catalina.Host reload
+INFO : com.jayyin.jaytomcat.watcher.ContextFileChangeWatcher@24810eb0 检测到文件改动：HelloServlet111.class
+    06/12/2020 21:10:46 com.jayyin.jaytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : Reloading Context /javaweb has started
+    06/12/2020 21:10:46 com.jayyin.jaytomcat.catalina.Host reload
+INFO : Deploying web application directory F:/Project/jaytomcat/webapps/javaweb
+    06/12/2020 21:10:46 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:/Project/jaytomcat/webapps/javaweb has finished in 3ms
+    06/12/2020 21:10:46 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Reloading Context /javaweb has completed
+    06/12/2020 21:10:46 com.jayyin.jaytomcat.catalina.Host reload
+INFO : com.jayyin.jaytomcat.watcher.ContextFileChangeWatcher@77aacca3 检测到文件改动：HelloServlet11.class
+    06/12/2020 21:13:11 com.jayyin.jaytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : Reloading Context /javaweb has started
+    06/12/2020 21:13:11 com.jayyin.jaytomcat.catalina.Host reload
+INFO : Deploying web application directory F:/Project/jaytomcat/webapps/javaweb
+    06/12/2020 21:13:11 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:/Project/jaytomcat/webapps/javaweb has finished in 3ms
+    06/12/2020 21:13:11 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Reloading Context /javaweb has completed
+    06/12/2020 21:13:11 com.jayyin.jaytomcat.catalina.Host reload
+INFO : com.jayyin.jaytomcat.watcher.ContextFileChangeWatcher@6d10284a 检测到文件改动：HelloServlet11.class
+    06/12/2020 21:13:11 com.jayyin.jaytomcat.watcher.ContextFileChangeWatcher$1 dealWith
+INFO : Reloading Context /javaweb has started
+    06/12/2020 21:13:11 com.jayyin.jaytomcat.catalina.Host reload
+INFO : Deploying web application directory F:/Project/jaytomcat/webapps/javaweb
+    06/12/2020 21:13:11 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:/Project/jaytomcat/webapps/javaweb has finished in 5ms
+    06/12/2020 21:13:11 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Reloading Context /javaweb has completed
+    06/12/2020 21:13:11 com.jayyin.jaytomcat.catalina.Host reload

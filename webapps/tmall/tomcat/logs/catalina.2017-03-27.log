@@ -1,0 +1,52 @@
+三月 27, 2017 2:50:52 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+三月 27, 2017 2:50:52 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+三月 27, 2017 2:50:52 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+三月 27, 2017 2:50:52 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+三月 27, 2017 2:50:52 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+三月 27, 2017 2:50:52 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          x86
+三月 27, 2017 2:50:52 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             d:\software\jdk8\jre
+三月 27, 2017 2:50:52 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_65-b17
+三月 27, 2017 2:50:52 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+三月 27, 2017 2:50:52 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         E:\download\tomcat_80
+三月 27, 2017 2:50:52 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         E:\download\tomcat_80
+三月 27, 2017 2:50:52 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=E:\download\tomcat_80\conf\logging.properties
+三月 27, 2017 2:50:52 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+三月 27, 2017 2:50:52 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=E:\download\tomcat_80\endorsed
+三月 27, 2017 2:50:52 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=E:\download\tomcat_80
+三月 27, 2017 2:50:52 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=E:\download\tomcat_80
+三月 27, 2017 2:50:52 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=E:\download\tomcat_80\temp
+三月 27, 2017 2:50:52 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: d:\software\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;d:\software\jdk8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\software\winrar;C:\Program Files\Intel\OpenCL SDK\1.5\bin\x86;.
+三月 27, 2017 2:50:52 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+三月 27, 2017 2:50:52 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8089"]
+三月 27, 2017 2:50:52 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 552 ms
+三月 27, 2017 2:50:52 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+三月 27, 2017 2:50:52 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+三月 27, 2017 2:50:52 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+三月 27, 2017 2:50:52 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8089"]
+三月 27, 2017 2:50:52 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 47 ms

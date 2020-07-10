@@ -1,0 +1,11 @@
+上传文件
+	commons-fileupload-1.2.2
+	commons-io-1.4
+	commons-lang-2.5
+连接sql数据库
+	mysql-connector-java-5.0.8-bin
+servlet
+	servlet-api
+jsp
+	jstl
+	standard

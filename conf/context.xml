@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Context>
+    <!-- 项目配置文件指向 -->
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+</Context>
