@@ -18,7 +18,7 @@ public class Bootstrap {
         CommonClassLoader commonClassLoader = new CommonClassLoader();
         Thread.currentThread().setContextClassLoader(commonClassLoader);
 
-        // 加载器实例化Server，启动服务
+        // 加载器实例化Server，启动服务（需要将整个项目打成jar包放入lib目录中才能加载到）
         String serverClassName = "com.jayyin.jaytomcat.catalina.Server";
         Class<?> serverClazz = commonClassLoader.loadClass(serverClassName);
         Object server = serverClazz.newInstance();

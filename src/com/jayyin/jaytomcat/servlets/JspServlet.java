@@ -57,7 +57,7 @@ public class JspServlet extends HttpServlet {
                 if (!servletClassFile.exists() ) {
                     JspUtil.compileJsp(context, jspFile);
                 }
-                // 过时了
+                // 过时了，移除jsp类加载器，重新编译jsp
                 else if (jspFile.lastModified() > servletClassFile.lastModified()) {
                     JspClassLoader.removeJspClassLoader(uri, context);
                     JspUtil.compileJsp(context, jspFile);

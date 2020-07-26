@@ -10,6 +10,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
+ * 模拟客户端发送请求
  * 指定url，作为客户端发送访问请求
  */
 public class MiniBrowser {

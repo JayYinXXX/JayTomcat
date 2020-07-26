@@ -85,4 +85,8 @@
         <servlet-name>ServerJumpServlet</servlet-name>
         <url-pattern>/server_jump</url-pattern>
     </servlet-mapping>
+
+    <listener>
+        <listener-class>com.jayyin.jaytomcat.webappservlet.ContextListener</listener-class>
+    </listener>
 </web-app>

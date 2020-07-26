@@ -59,6 +59,8 @@ public class Context {
     private Map<String, List<String>> url_filterNames;  // url_filter别名
     private Map<String, List<String>> url_filterClassNames;
     private Map<String, Map<String, String>> filterName_initParams;
+    // Listener监听配置
+    private List<ServletContextListener> listeners;
     //
     public Context(String path, String docBase, boolean reloadable, Host host) {
         this.path = path;
@@ -85,6 +87,8 @@ public class Context {
         this.url_filterNames = new HashMap<>();
         this.url_filterClassNames = new HashMap<>();
         this.filterName_initParams = new HashMap<>();
+        //
+        this.listeners = new ArrayList<>();
 
         deploy();
     }
@@ -110,6 +114,8 @@ public class Context {
 
     // 初始化，解析web.xml配置文件
     private void init() {
+        fireEvent("init");
+
         // 读取xml
         if (!contextWebXmlFile.exists()) {
             return;
@@ -137,6 +143,22 @@ public class Context {
         // 7. 加载filter
         loadFilters();
 
+        // 8. 加载listener
+        parseAndLoadListeners(d);
+    }
+
+    // 结束context，释放相关资源
+    public void stop() {
+        fireEvent("destroy");
+
+        webappClassLoader.stop();
+        contextFileChangeWatcher.stop();
+        destroyServlets();
+    }
+
+    // 重新加载这个Context
+    public void reload() {
+        host.reload(this);
     }
 
     // 1. 检查Servlet配置文件中元素是否有重复
@@ -354,16 +376,31 @@ public class Context {
         return false;
     }
 
-    // 结束context，释放相关资源
-    public void stop() {
-        webappClassLoader.stop();
-        contextFileChangeWatcher.stop();
-        destroyServlets();
+    // 8. 解析并加载Listener监听器
+    public void parseAndLoadListeners(Document d) {
+        try {
+            Elements es = d.select("listener listener-class");
+            for (Element e : es) {
+                String listenerClassName = e.text();
+                Class<?>  clazz = this.getWebappClassLoader().loadClass(listenerClassName);
+                ServletContextListener listener = (ServletContextListener) clazz.newInstance();
+                listeners.add(listener);
+            }
+        } catch (ClassNotFoundException | InstantiationException | IllegalAccessException classNotFoundException) {
+            classNotFoundException.printStackTrace();
+        }
     }
-
-    // 重新加载这个Context
-    public void reload() {
-        host.reload(this);
+    // 执行监听事件
+    public void fireEvent(String type) {
+        ServletContextEvent event = new ServletContextEvent(servletContext);
+        for (ServletContextListener listener : listeners) {
+            if ("init".equals(type)) {
+                listener.contextInitialized(event);
+            }
+            else if ("destroy".equals(type)) {
+                listener.contextDestroyed(event);
+            }
+        }
     }
 
 

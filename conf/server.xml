@@ -4,6 +4,7 @@
         <Connector port="18080" mode="NIO"/>
         <Engine defaultHost="localhost">
             <Host name="localhost">
+                <Context path="/app1" docBase="F:/Project/jaytomcat/webapps/app1" reloadable="true"/>
                 <Context path="/javaweb" docBase="F:/Project/jaytomcat/webapps/javaweb" reloadable="true"/>
                 <Context path="/tmall" docBase="F:/Project/jaytomcat/webapps/tmall/web"/>
             </Host>
