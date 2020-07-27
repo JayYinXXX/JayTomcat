@@ -42,7 +42,6 @@ public class NioExecutor implements Runnable{
     @Override
     public void run() {
         while (true) {
-            System.out.println("SimBlocking-select()启动，等待事件");
             try {
                 // 注册队列中缓存的事件
                 for (int i=0; i <= events.size()-1; ++i) {
@@ -52,6 +51,7 @@ public class NioExecutor implements Runnable{
                         if (socketChannel != null) {
                             socketWrapper.setKey(socketChannel.register(selector, 0, socketWrapper));
                             socketWrapper.countDownReadLatch();
+                            System.out.println("SimBlocking-成功注册事件：" + socketChannel);
                         }
                     }
                 }
@@ -66,13 +66,13 @@ public class NioExecutor implements Runnable{
                         key.interestOps(0);
                         SocketWrapper socketWrapper = (SocketWrapper) key.attachment();
                         socketWrapper.countDownReadLatch();
-                        System.out.println("监听到可读事件" + socketWrapper.readLatch);
+                        System.out.println("SimBlocking-监听到Read事件" + socketWrapper.readLatch);
                     }
                     else if (key.isValid() && key.isWritable()) {
                         key.interestOps(0);
                         SocketWrapper socketWrapper = (SocketWrapper) key.attachment();
                         socketWrapper.countDownWriteLatch();
-                        System.out.println("监听到可写事件" + socketWrapper.writeLatch);
+                        System.out.println("SimBlocking-监听到Write事件" + socketWrapper.writeLatch);
                     }
                 }
             } catch (IOException e) {
@@ -93,8 +93,12 @@ public class NioExecutor implements Runnable{
                     events.offer(socketWrapper, EVENT_TIMEOUT, TimeUnit.MILLISECONDS);
                     selector.wakeup();
                     // 注册完成唤醒，继续执行（如果注册没有完成，超时继续，read()会出错，这里应该抛出异常中断连接）
-                    socketWrapper.awaitReadLatch(10000, TimeUnit.MILLISECONDS);
-                    socketWrapper.countDownReadLatch();
+                    if (socketWrapper.awaitReadLatch(2*1000, TimeUnit.MILLISECONDS)) {
+                        socketWrapper.countDownReadLatch();
+                    }
+                    else {
+                        throw new IOException("SimBlocking-注册超时");
+                    }
 
 
                     // 读
@@ -123,15 +127,17 @@ public class NioExecutor implements Runnable{
                         if (key != null) {
                             key.cancel();
                         }
+                        String channel = "" + socketChannel;
                         socketChannel.close();
-                        System.out.println("连接关闭");
+                        System.out.println("连接关闭：" + channel);
                     } catch (IOException ioException) {
                         ioException.printStackTrace();
                     }
                 }
             }
         };
-        ThreadPoolUtil.run(r);
+
+        ThreadPoolUtil.execute(r, socketChannel);
     }
 
     // 读取请求
@@ -162,7 +168,7 @@ public class NioExecutor implements Runnable{
                 }
 
                 //
-                System.out.println("等待可读事件");
+                // System.out.println("等待可读事件：" + readCount);
                 try {
                     socketWrapper.awaitReadLatch(READ_TIMEOUT, TimeUnit.MILLISECONDS);
                     socketWrapper.countDownReadLatch();
@@ -175,7 +181,7 @@ public class NioExecutor implements Runnable{
             else {
                 requestString.append(new String(buffer.array(), 0, buffer.position(), "utf-8"));
             }
-            System.out.println("读取数据 " + read);
+            // System.out.println("读取数据 " + read);
         }
         return requestString.toString();
     }
@@ -237,17 +243,17 @@ public class NioExecutor implements Runnable{
         }
 
         // 阻塞线程直到计数归零或超时
-        protected void awaitLatch(CountDownLatch latch, long timeout, TimeUnit unit) throws InterruptedException {
+        protected boolean awaitLatch(CountDownLatch latch, long timeout, TimeUnit unit) throws InterruptedException {
             if ( latch == null ) {
                 throw new IllegalStateException("Latch cannot be null");
             }
-            latch.await(timeout,unit);
+            return latch.await(timeout,unit);
         }
-        public void awaitReadLatch(long timeout, TimeUnit unit) throws InterruptedException {
-            awaitLatch(readLatch,timeout,unit);
+        public boolean awaitReadLatch(long timeout, TimeUnit unit) throws InterruptedException {
+            return awaitLatch(readLatch,timeout,unit);
         }
-        public void awaitWriteLatch(long timeout, TimeUnit unit) throws InterruptedException {
-            awaitLatch(writeLatch,timeout,unit);
+        public boolean awaitWriteLatch(long timeout, TimeUnit unit) throws InterruptedException {
+            return awaitLatch(writeLatch,timeout,unit);
         }
 
         // 计数

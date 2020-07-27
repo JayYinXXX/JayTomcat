@@ -200,7 +200,7 @@ public class TestTomcat {
     @Test
     public void testJsp() {
         String html = getContentString("/index.jsp");
-        Assert.assertEquals("<% System.out.println(\"编译并执行jsp ROOT/index.jsp\"); %>", html);
+        Assert.assertEquals("<% System.out.println(\"Executing ROOT/index.jsp\"); %>", html);
     }
 
     // /app1/ClientJumpServlet 客户端跳转

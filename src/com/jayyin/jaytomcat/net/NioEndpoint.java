@@ -67,18 +67,18 @@ public class NioEndpoint {
         @Override
         public void run() {
             while (true) {
-                System.out.println("Acceptor-accept()启动，等待连接");
+                System.out.println("Acceptor-等待连接");
                 try {
                     SocketChannel socketChannel = serverSocketChannel.accept();
                     socketChannel.configureBlocking(false);
                     try {
                         // 接收事件放入队列
-                        events.offer(socketChannel, 10000, TimeUnit.MILLISECONDS);
+                        events.offer(socketChannel, 1000, TimeUnit.MILLISECONDS);
                         getPoller().selector.wakeup();
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
-                    System.out.println("Accepted: " + socketChannel);
+                    System.out.println("Acceptor-收到连接: " + socketChannel);
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -90,7 +90,7 @@ public class NioEndpoint {
                 serverSocketChannel = ServerSocketChannel.open();
                 serverSocketChannel.configureBlocking(true);
                 serverSocketChannel.bind(new InetSocketAddress(connector.getPort()));
-                LogFactory.get().info("Acceptor 初始化");
+                LogFactory.get().info("Acceptor-初始化");
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -108,14 +108,13 @@ public class NioEndpoint {
         public void run() {
             int count = 0;
             while (true) {
-                System.out.println("Poller-select()启动，等待事件");
                 try {
-
                     // 注册队列中缓存的事件
                     for (int i=0; i <= events.size()-1; ++i) {
                         SocketChannel socketChannel = events.poll();
                         if (socketChannel != null) {
                             socketChannel.register(selector, SelectionKey.OP_READ);
+                            System.out.println("Poller-成功注册Read事件：" + socketChannel);
                         }
                     }
 
@@ -140,7 +139,7 @@ public class NioEndpoint {
             key.cancel();
             // 将连接交给线程池处理
             nioExecutor.execute(socketChannel);
-            System.out.println("Selected: " + socketChannel);
+            System.out.println("Poller-收到Read事件：" + socketChannel);
         }
 
         public Selector getSelector() {

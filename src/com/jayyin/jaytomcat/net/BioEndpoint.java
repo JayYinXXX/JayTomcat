@@ -95,7 +95,7 @@ public class BioEndpoint implements Runnable {
 
                     }
                 };
-                ThreadPoolUtil.run(r);
+                ThreadPoolUtil.execute(r, s);
             }
         } catch (IOException e) {
             LogFactory.get().error(e);

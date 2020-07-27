@@ -1,1 +1,1 @@
-<% System.out.println("编译并执行jsp ROOT/index.jsp"); %>
+<% System.out.println("Executing ROOT/index.jsp"); %>
