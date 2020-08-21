@@ -65,10 +65,10 @@ INFO : Starting ProtocolHandler [http-bio-18082]
 INFO : Server startup in 17ms
     06/19/2020 00:21:30 com.jayyin.jaytomcat.catalina.Server start
 ERROR: this is a deliberately created exception
-    06/19/2020 00:21:35 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/19/2020 00:21:35 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.RuntimeException: this is a deliberately created exception
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:39)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:53)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:53)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
@@ -140,10 +140,10 @@ INFO : Starting ProtocolHandler [http-bio-18082]
 INFO : Server startup in 23ms
     06/19/2020 00:25:59 com.jayyin.jaytomcat.catalina.Server start
 ERROR: this is a deliberately created exception
-    06/19/2020 00:26:05 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/19/2020 00:26:05 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.RuntimeException: this is a deliberately created exception
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:39)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:53)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:53)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
@@ -347,10 +347,10 @@ INFO : Starting ProtocolHandler [http-bio-18082]
 INFO : Server startup in 7ms
     06/19/2020 00:41:19 com.jayyin.jaytomcat.catalina.Server start
 ERROR: this is a deliberately created exception
-    06/19/2020 00:41:26 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/19/2020 00:41:26 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.RuntimeException: this is a deliberately created exception
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:39)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:53)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:53)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
@@ -422,10 +422,10 @@ INFO : Starting ProtocolHandler [http-bio-18082]
 INFO : Server startup in 59ms
     06/19/2020 00:52:57 com.jayyin.jaytomcat.catalina.Server start
 ERROR: this is a deliberately created exception
-    06/19/2020 00:53:04 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/19/2020 00:53:04 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.RuntimeException: this is a deliberately created exception
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:39)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:53)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:53)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
@@ -497,10 +497,10 @@ INFO : Starting ProtocolHandler [http-bio-18082]
 INFO : Server startup in 40ms
     06/19/2020 00:54:21 com.jayyin.jaytomcat.catalina.Server start
 ERROR: this is a deliberately created exception
-    06/19/2020 00:54:25 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/19/2020 00:54:25 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.RuntimeException: this is a deliberately created exception
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:39)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:53)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:53)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
@@ -572,10 +572,10 @@ INFO : Starting ProtocolHandler [http-bio-18082]
 INFO : Server startup in 9ms
     06/19/2020 11:46:08 com.jayyin.jaytomcat.catalina.Server start
 ERROR: this is a deliberately created exception
-    06/19/2020 11:52:53 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/19/2020 11:52:53 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.RuntimeException: this is a deliberately created exception
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:39)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:54)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:54)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
@@ -647,10 +647,10 @@ INFO : Starting ProtocolHandler [http-bio-18082]
 INFO : Server startup in 11ms
     06/19/2020 14:07:15 com.jayyin.jaytomcat.catalina.Server start
 ERROR: this is a deliberately created exception
-    06/19/2020 14:07:21 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/19/2020 14:07:21 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.RuntimeException: this is a deliberately created exception
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:42)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:59)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:59)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
@@ -722,10 +722,10 @@ INFO : Starting ProtocolHandler [http-bio-18082]
 INFO : Server startup in 12ms
     06/19/2020 14:13:51 com.jayyin.jaytomcat.catalina.Server start
 ERROR: this is a deliberately created exception
-    06/19/2020 14:13:56 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/19/2020 14:13:56 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.RuntimeException: this is a deliberately created exception
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:42)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:59)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:59)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)

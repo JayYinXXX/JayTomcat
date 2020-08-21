@@ -20,7 +20,7 @@ import java.io.File;
 public class DefaultServlet extends HttpServlet {
     private static DefaultServlet instance = new DefaultServlet();
     //
-    public DefaultServlet() {
+    private DefaultServlet() {
 
     }
 

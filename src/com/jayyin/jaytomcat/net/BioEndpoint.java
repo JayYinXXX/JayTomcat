@@ -2,7 +2,7 @@ package com.jayyin.jaytomcat.net;
 
 import cn.hutool.log.LogFactory;
 import com.jayyin.jaytomcat.catalina.Connector;
-import com.jayyin.jaytomcat.catalina.HttpProcessor;
+import com.jayyin.jaytomcat.http.HttpProcessor;
 import com.jayyin.jaytomcat.http.Request;
 import com.jayyin.jaytomcat.http.Response;
 import com.jayyin.jaytomcat.util.MiniBrowser;
@@ -13,7 +13,6 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.nio.channels.SocketChannel;
 
 /**
  * BIO 同步阻塞io

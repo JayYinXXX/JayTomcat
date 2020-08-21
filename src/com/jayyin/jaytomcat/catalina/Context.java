@@ -245,7 +245,7 @@ public class Context {
     // 获取servlet池中的实例（如果不存在则需要新建，所以需要同步）
     public synchronized HttpServlet getServlet(Class<?> clazz) throws IllegalAccessException, InstantiationException, ServletException {
         HttpServlet servlet = servletPool.get(clazz);
-        // 不存在则创建（懒汉式单例，因为在初始化阶段没有全部创建）
+        // 不存在则创建（初始化阶段没有全部创建）
         if (servlet == null) {
             servlet = (HttpServlet) clazz.newInstance();
             ServletContext servletContext = this.getServletContext();

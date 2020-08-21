@@ -46,17 +46,17 @@ public class NioEndpoint {
         init();
 
         // 模拟阻塞线程
-        Thread blockingThread = new Thread(nioExecutor, "thread-blocking");
+        Thread blockingThread = new Thread(nioExecutor, "thread-SimBlocking");
         blockingThread.setDaemon(true);
         blockingThread.start();
 
         // 开启poller线程
-        Thread pollerThread = new Thread(poller, "thread-poller");
+        Thread pollerThread = new Thread(poller, "thread-Poller");
         pollerThread.setDaemon(true);
         pollerThread.start();
 
         // 开启acceptor线程
-        Thread acceptThread = new Thread(acceptor, "thread-acceptor");
+        Thread acceptThread = new Thread(acceptor, "thread-Acceptor");
         // acceptThread.setDaemon(true);
         acceptThread.start();
 

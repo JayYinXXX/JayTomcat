@@ -65,43 +65,43 @@ INFO : Starting ProtocolHandler [http-bio-18082]
 INFO : Server startup in 0ms
     06/22/2020 00:37:17 com.jayyin.jaytomcat.catalina.Server start
 ERROR: File path is blank!
-    06/22/2020 00:37:25 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/22/2020 00:37:25 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.NullPointerException: File path is blank!
 	at cn.hutool.core.io.FileUtil.file(FileUtil.java:338)
 	at cn.hutool.core.io.FileUtil.file(FileUtil.java:325)
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:46)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:62)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:62)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 ERROR: File path is blank!
-    06/22/2020 00:37:26 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/22/2020 00:37:26 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.NullPointerException: File path is blank!
 	at cn.hutool.core.io.FileUtil.file(FileUtil.java:338)
 	at cn.hutool.core.io.FileUtil.file(FileUtil.java:325)
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:46)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:62)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:62)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 ERROR: this is a deliberately created exception
-    06/22/2020 00:37:26 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/22/2020 00:37:26 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.RuntimeException: this is a deliberately created exception
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:42)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:62)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:62)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 ERROR: File path is blank!
-    06/22/2020 00:37:26 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/22/2020 00:37:26 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.NullPointerException: File path is blank!
 	at cn.hutool.core.io.FileUtil.file(FileUtil.java:338)
 	at cn.hutool.core.io.FileUtil.file(FileUtil.java:325)
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:46)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:62)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:62)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
@@ -305,12 +305,12 @@ INFO : Starting ProtocolHandler [http-bio-18082]
 INFO : Server startup in 15ms
     06/22/2020 00:54:44 com.jayyin.jaytomcat.catalina.Server start
 ERROR: File path is blank!
-    06/22/2020 00:59:04 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/22/2020 00:59:04 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.NullPointerException: File path is blank!
 	at cn.hutool.core.io.FileUtil.file(FileUtil.java:338)
 	at cn.hutool.core.io.FileUtil.file(FileUtil.java:325)
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:46)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:62)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:62)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
@@ -382,32 +382,32 @@ INFO : Starting ProtocolHandler [http-bio-18082]
 INFO : Server startup in 26ms
     06/22/2020 01:07:24 com.jayyin.jaytomcat.catalina.Server start
 ERROR: this is a deliberately created exception
-    06/22/2020 01:08:01 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/22/2020 01:08:01 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.RuntimeException: this is a deliberately created exception
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:42)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:59)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:59)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 ERROR: File path is blank!
-    06/22/2020 01:08:01 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/22/2020 01:08:01 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.NullPointerException: File path is blank!
 	at cn.hutool.core.io.FileUtil.file(FileUtil.java:338)
 	at cn.hutool.core.io.FileUtil.file(FileUtil.java:325)
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:46)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:59)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:59)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 ERROR: File path is blank!
-    06/22/2020 01:08:02 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/22/2020 01:08:02 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.NullPointerException: File path is blank!
 	at cn.hutool.core.io.FileUtil.file(FileUtil.java:338)
 	at cn.hutool.core.io.FileUtil.file(FileUtil.java:325)
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:46)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:59)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:59)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
@@ -479,12 +479,12 @@ INFO : Starting ProtocolHandler [http-bio-18082]
 INFO : Server startup in 9ms
     06/22/2020 01:10:28 com.jayyin.jaytomcat.catalina.Server start
 ERROR: File path is blank!
-    06/22/2020 01:14:38 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/22/2020 01:14:38 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.NullPointerException: File path is blank!
 	at cn.hutool.core.io.FileUtil.file(FileUtil.java:338)
 	at cn.hutool.core.io.FileUtil.file(FileUtil.java:325)
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:46)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:59)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:59)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
@@ -556,43 +556,43 @@ INFO : Starting ProtocolHandler [http-bio-18082]
 INFO : Server startup in 0ms
     06/22/2020 01:15:39 com.jayyin.jaytomcat.catalina.Server start
 ERROR: File path is blank!
-    06/22/2020 01:15:43 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/22/2020 01:15:43 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.NullPointerException: File path is blank!
 	at cn.hutool.core.io.FileUtil.file(FileUtil.java:338)
 	at cn.hutool.core.io.FileUtil.file(FileUtil.java:325)
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:46)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:59)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:59)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 ERROR: File path is blank!
-    06/22/2020 01:15:44 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/22/2020 01:15:44 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.NullPointerException: File path is blank!
 	at cn.hutool.core.io.FileUtil.file(FileUtil.java:338)
 	at cn.hutool.core.io.FileUtil.file(FileUtil.java:325)
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:46)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:59)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:59)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 ERROR: this is a deliberately created exception
-    06/22/2020 01:15:44 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/22/2020 01:15:44 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.RuntimeException: this is a deliberately created exception
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:42)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:59)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:59)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 ERROR: File path is blank!
-    06/22/2020 01:15:44 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/22/2020 01:15:44 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.NullPointerException: File path is blank!
 	at cn.hutool.core.io.FileUtil.file(FileUtil.java:338)
 	at cn.hutool.core.io.FileUtil.file(FileUtil.java:325)
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:46)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:59)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:59)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
@@ -664,19 +664,19 @@ INFO : Starting ProtocolHandler [http-bio-18082]
 INFO : Server startup in 16ms
     06/22/2020 01:16:12 com.jayyin.jaytomcat.catalina.Server start
 ERROR: this is a deliberately created exception
-    06/22/2020 01:16:19 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/22/2020 01:16:19 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.RuntimeException: this is a deliberately created exception
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:42)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:59)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:59)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 ERROR: this is a deliberately created exception
-    06/22/2020 01:22:36 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/22/2020 01:22:36 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.RuntimeException: this is a deliberately created exception
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:42)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:59)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:59)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
@@ -748,19 +748,19 @@ INFO : Starting ProtocolHandler [http-bio-18082]
 INFO : Server startup in 16ms
     06/22/2020 12:07:45 com.jayyin.jaytomcat.catalina.Server start
 ERROR: this is a deliberately created exception
-    06/22/2020 12:07:52 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/22/2020 12:07:52 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.RuntimeException: this is a deliberately created exception
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:42)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:56)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:56)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 ERROR: this is a deliberately created exception
-    06/22/2020 12:08:44 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/22/2020 12:08:44 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.RuntimeException: this is a deliberately created exception
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:42)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:56)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:56)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
@@ -840,10 +840,10 @@ INFO : Starting ProtocolHandler [http-bio-18082]
 INFO : Server startup in 16ms
     06/22/2020 15:44:52 com.jayyin.jaytomcat.catalina.Server start
 ERROR: this is a deliberately created exception
-    06/22/2020 15:45:00 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/22/2020 15:45:00 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.RuntimeException: this is a deliberately created exception
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:42)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:56)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:56)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
@@ -923,10 +923,10 @@ INFO : Starting ProtocolHandler [http-bio-18082]
 INFO : Server startup in 0ms
     06/22/2020 15:53:19 com.jayyin.jaytomcat.catalina.Server start
 ERROR: this is a deliberately created exception
-    06/22/2020 15:53:24 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/22/2020 15:53:24 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.RuntimeException: this is a deliberately created exception
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:42)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:56)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:56)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
@@ -1006,10 +1006,10 @@ INFO : Starting ProtocolHandler [http-bio-18082]
 INFO : Server startup in 0ms
     06/22/2020 15:53:46 com.jayyin.jaytomcat.catalina.Server start
 ERROR: this is a deliberately created exception
-    06/22/2020 15:53:51 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/22/2020 15:53:51 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.RuntimeException: this is a deliberately created exception
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:42)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:56)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:56)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
@@ -1081,10 +1081,10 @@ INFO : Starting ProtocolHandler [http-bio-18082]
 INFO : Server startup in 0ms
     06/22/2020 20:36:34 com.jayyin.jaytomcat.catalina.Server start
 ERROR: this is a deliberately created exception
-    06/22/2020 20:36:42 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/22/2020 20:36:42 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.RuntimeException: this is a deliberately created exception
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:42)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:56)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:56)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
@@ -1424,10 +1424,10 @@ INFO : Starting ProtocolHandler [http-bio-18082]
 INFO : Server startup in 15ms
     06/22/2020 23:58:56 com.jayyin.jaytomcat.catalina.Server start
 ERROR: this is a deliberately created exception
-    06/22/2020 23:59:04 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/22/2020 23:59:04 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.RuntimeException: this is a deliberately created exception
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:42)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:56)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:56)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)

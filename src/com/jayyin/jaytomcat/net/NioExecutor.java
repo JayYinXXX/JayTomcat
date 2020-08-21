@@ -1,7 +1,7 @@
 package com.jayyin.jaytomcat.net;
 
 import com.jayyin.jaytomcat.catalina.Connector;
-import com.jayyin.jaytomcat.catalina.HttpProcessor;
+import com.jayyin.jaytomcat.http.HttpProcessor;
 import com.jayyin.jaytomcat.http.Request;
 import com.jayyin.jaytomcat.http.Response;
 import com.jayyin.jaytomcat.util.ThreadPoolUtil;
@@ -9,7 +9,6 @@ import com.jayyin.jaytomcat.util.ThreadPoolUtil;
 import java.io.IOException;
 import java.net.Socket;
 import java.nio.ByteBuffer;
-import java.nio.channels.ClosedChannelException;
 import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
 import java.nio.channels.SocketChannel;

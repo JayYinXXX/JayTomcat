@@ -1,0 +1,46 @@
+INFO : Deploying web application directory F:/Project/jaytomcat/webapps/app1
+    08/01/2020 16:15:24 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:/Project/jaytomcat/webapps/app1 has finished in 237ms
+    08/01/2020 16:15:24 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deploying web application directory F:/Project/jaytomcat/webapps/javaweb
+    08/01/2020 16:15:24 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:/Project/jaytomcat/webapps/javaweb has finished in 3ms
+    08/01/2020 16:15:24 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deploying web application directory F:/Project/jaytomcat/webapps/tmall/web
+    08/01/2020 16:15:24 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:/Project/jaytomcat/webapps/tmall/web has finished in 16ms
+    08/01/2020 16:15:24 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deploying web application directory F:\Project\jaytomcat\webapps\javaweb2
+    08/01/2020 16:15:24 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:\Project\jaytomcat\webapps\javaweb2 has finished in 39ms
+    08/01/2020 16:15:24 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deploying web application directory F:\Project\jaytomcat\webapps\ROOT
+    08/01/2020 16:15:24 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:\Project\jaytomcat\webapps\ROOT has finished in 3ms
+    08/01/2020 16:15:24 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deploying web application directory F:/Project/jaytomcat/webapps/app1
+    08/01/2020 16:15:24 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:/Project/jaytomcat/webapps/app1 has finished in 14ms
+    08/01/2020 16:15:24 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deploying web application directory F:/Project/jaytomcat/webapps/javaweb
+    08/01/2020 16:15:24 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:/Project/jaytomcat/webapps/javaweb has finished in 10ms
+    08/01/2020 16:15:24 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deploying web application directory F:/Project/jaytomcat/webapps/tmall/web
+    08/01/2020 16:15:24 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:/Project/jaytomcat/webapps/tmall/web has finished in 15ms
+    08/01/2020 16:15:24 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deploying web application directory F:\Project\jaytomcat\webapps\javaweb2
+    08/01/2020 16:15:24 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:\Project\jaytomcat\webapps\javaweb2 has finished in 28ms
+    08/01/2020 16:15:24 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deploying web application directory F:\Project\jaytomcat\webapps\ROOT
+    08/01/2020 16:15:24 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Deployment of web application directory F:\Project\jaytomcat\webapps\ROOT has finished in 1ms
+    08/01/2020 16:15:24 com.jayyin.jaytomcat.catalina.Context deploy
+INFO : Initializing Connector 18080 - mode:BIO
+    08/01/2020 16:15:24 com.jayyin.jaytomcat.catalina.Connector init
+INFO : Initialization processed in 1ms
+    08/01/2020 16:15:24 com.jayyin.jaytomcat.catalina.Service init
+INFO : Server startup in 13ms
+    08/01/2020 16:15:24 com.jayyin.jaytomcat.catalina.Server start
