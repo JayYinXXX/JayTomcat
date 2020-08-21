@@ -1,7 +1,5 @@
 package com.jayyin.jaytomcat.http;
 
-import com.jayyin.jaytomcat.catalina.HttpProcessor;
-
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;

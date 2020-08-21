@@ -1,9 +1,7 @@
 package com.jayyin.jaytomcat;
 
-import com.jayyin.jaytomcat.catalina.Server;
 import com.jayyin.jaytomcat.classloader.CommonClassLoader;
 
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 /**
@@ -18,7 +16,7 @@ public class Bootstrap {
         CommonClassLoader commonClassLoader = new CommonClassLoader();
         Thread.currentThread().setContextClassLoader(commonClassLoader);
 
-        // 加载器实例化Server，启动服务（需要将整个项目打成jar包放入lib目录中才能加载到）
+        // 加载器实例化Server，启动服务（需要将项目源代码的jar包放入lib目录中才能加载到）
         String serverClassName = "com.jayyin.jaytomcat.catalina.Server";
         Class<?> serverClazz = commonClassLoader.loadClass(serverClassName);
         Object server = serverClazz.newInstance();

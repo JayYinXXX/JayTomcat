@@ -167,12 +167,12 @@ java.net.BindException: Address already in use: JVM_Bind
 	at com.jayyin.jaytomcat.catalina.Connector.run(Connector.java:47)
 	at java.lang.Thread.run(Thread.java:748)
 ERROR: this is a deliberately created exception
-    06/23/2020 14:55:30 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/23/2020 14:55:30 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.RuntimeException: this is a deliberately created exception
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:42)
 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
 	at com.jayyin.jaytomcat.catalina.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:32)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:66)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:66)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
@@ -548,12 +548,12 @@ INFO : Starting ProtocolHandler [http-bio-18082]
 INFO : Server startup in 16ms
     06/23/2020 20:56:36 com.jayyin.jaytomcat.catalina.Server start
 ERROR: this is a deliberately created exception
-    06/23/2020 20:56:43 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/23/2020 20:56:43 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.RuntimeException: this is a deliberately created exception
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:42)
 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
 	at com.jayyin.jaytomcat.catalina.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:32)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:66)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:66)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
@@ -855,7 +855,7 @@ INFO : Starting ProtocolHandler [http-bio-18082]
 INFO : Server startup in 16ms
     06/23/2020 23:03:15 com.jayyin.jaytomcat.catalina.Server start
 ERROR: No org.apache.tomcat.InstanceManager set in ServletContext
-    06/23/2020 23:03:20 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/23/2020 23:03:20 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.IllegalStateException: No org.apache.tomcat.InstanceManager set in ServletContext
 	at org.apache.jasper.runtime.InstanceManagerFactory.getInstanceManager(InstanceManagerFactory.java:32)
 	at org.apache.jasper.runtime.TagHandlerPool.init(TagHandlerPool.java:78)
@@ -870,7 +870,7 @@ java.lang.IllegalStateException: No org.apache.tomcat.InstanceManager set in Ser
 	at com.jayyin.jaytomcat.catalina.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:28)
 	at tmall.filter.EncodingFilter.doFilter(EncodingFilter.java:27)
 	at com.jayyin.jaytomcat.catalina.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:28)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:66)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:66)
 	at com.jayyin.jaytomcat.http.ApplicationRequestDispatcher.forward(ApplicationRequestDispatcher.java:34)
 	at tmall.servlet.BaseBackServlet.service(BaseBackServlet.java:73)
 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
@@ -881,24 +881,24 @@ java.lang.IllegalStateException: No org.apache.tomcat.InstanceManager set in Ser
 	at com.jayyin.jaytomcat.catalina.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:28)
 	at tmall.filter.EncodingFilter.doFilter(EncodingFilter.java:27)
 	at com.jayyin.jaytomcat.catalina.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:28)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:66)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:66)
 	at com.jayyin.jaytomcat.http.ApplicationRequestDispatcher.forward(ApplicationRequestDispatcher.java:34)
 	at tmall.filter.BackServletFilter.doFilter(BackServletFilter.java:39)
 	at com.jayyin.jaytomcat.catalina.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:28)
 	at tmall.filter.EncodingFilter.doFilter(EncodingFilter.java:27)
 	at com.jayyin.jaytomcat.catalina.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:28)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:66)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:66)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 ERROR: this is a deliberately created exception
-    06/23/2020 23:07:58 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/23/2020 23:07:58 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.RuntimeException: this is a deliberately created exception
 	at com.jayyin.jaytomcat.servlets.DefaultServlet.service(DefaultServlet.java:42)
 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
 	at com.jayyin.jaytomcat.catalina.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:32)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:66)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:66)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
@@ -978,7 +978,7 @@ INFO : Starting ProtocolHandler [http-bio-18082]
 INFO : Server startup in 16ms
     06/23/2020 23:23:15 com.jayyin.jaytomcat.catalina.Server start
 ERROR: No org.apache.tomcat.InstanceManager set in ServletContext
-    06/23/2020 23:23:26 com.jayyin.jaytomcat.catalina.HttpProcessor error
+    06/23/2020 23:23:26 com.jayyin.jaytomcat.http.HttpProcessor error
 java.lang.IllegalStateException: No org.apache.tomcat.InstanceManager set in ServletContext
 	at org.apache.jasper.runtime.InstanceManagerFactory.getInstanceManager(InstanceManagerFactory.java:32)
 	at org.apache.jasper.runtime.TagHandlerPool.init(TagHandlerPool.java:78)
@@ -993,7 +993,7 @@ java.lang.IllegalStateException: No org.apache.tomcat.InstanceManager set in Ser
 	at com.jayyin.jaytomcat.catalina.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:28)
 	at tmall.filter.EncodingFilter.doFilter(EncodingFilter.java:27)
 	at com.jayyin.jaytomcat.catalina.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:28)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:66)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:66)
 	at com.jayyin.jaytomcat.http.ApplicationRequestDispatcher.forward(ApplicationRequestDispatcher.java:34)
 	at tmall.servlet.BaseBackServlet.service(BaseBackServlet.java:73)
 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
@@ -1004,13 +1004,13 @@ java.lang.IllegalStateException: No org.apache.tomcat.InstanceManager set in Ser
 	at com.jayyin.jaytomcat.catalina.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:28)
 	at tmall.filter.EncodingFilter.doFilter(EncodingFilter.java:27)
 	at com.jayyin.jaytomcat.catalina.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:28)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:66)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:66)
 	at com.jayyin.jaytomcat.http.ApplicationRequestDispatcher.forward(ApplicationRequestDispatcher.java:34)
 	at tmall.filter.BackServletFilter.doFilter(BackServletFilter.java:39)
 	at com.jayyin.jaytomcat.catalina.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:28)
 	at tmall.filter.EncodingFilter.doFilter(EncodingFilter.java:27)
 	at com.jayyin.jaytomcat.catalina.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:28)
-	at com.jayyin.jaytomcat.catalina.HttpProcessor.execute(HttpProcessor.java:66)
+	at com.jayyin.jaytomcat.http.HttpProcessor.execute(HttpProcessor.java:66)
 	at com.jayyin.jaytomcat.catalina.Connector$1.run(Connector.java:64)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)

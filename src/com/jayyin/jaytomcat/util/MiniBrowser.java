@@ -16,7 +16,7 @@ import java.util.Set;
 public class MiniBrowser {
     public static void main(String[] args) {
         // 测试网站
-        String url = "http://static.how2j.cn/diytomcat.html";
+        String url = "http://www.jay.center";
 
         System.out.println(getHttpString(url));
         System.out.println(getContentString(url));

@@ -11,7 +11,6 @@ import java.nio.file.WatchEvent;
 
 /**
  * 包装监听器
- *
  *      监听web应用文件的改变
  */
 public class ContextFileChangeWatcher {
@@ -21,6 +20,7 @@ public class ContextFileChangeWatcher {
     public ContextFileChangeWatcher(Context context) {
         // 新建监听器
         this.monitor = WatchUtil.createAll(context.getDocBase(), Integer.MAX_VALUE, new Watcher() {
+
             private void dealWith(WatchEvent<?> event) {
                 // 加锁
                 synchronized(ContextFileChangeWatcher.class) {
